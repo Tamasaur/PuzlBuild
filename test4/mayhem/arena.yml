@@ -1,0 +1,5 @@
+# Dummy arena file. Contents filled in by in-game commands
+
+arena-center: world,123.531953,30.000000,-48.534622,-268.062805,0.899981
+center-radius-sq: 0.0
+boundary-radius-sq: 0.0

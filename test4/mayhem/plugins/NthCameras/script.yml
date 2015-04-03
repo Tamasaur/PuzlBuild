@@ -1,0 +1,13 @@
+# Dummy script file. Edit to suit the stage this runs on
+# name - camera name
+# delay - how long we should display that camera, in game ticks (20 ticks = 1 second)
+default:
+- {name: "mayhem1", delay: 60}
+- {name: "mayhem2", delay: 60}
+- {name: "mayhem3", delay: 60}
+- {name: "mayhem4", delay: 60}
+- {name: "mayhem5", delay: 60}
+
+altar1:
+- {name: "altar1inside", delay: 40}
+- {name: "altar1outside", delay: 60}

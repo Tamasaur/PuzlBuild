@@ -1,0 +1,1 @@
+java -server -Xmx1024M -Xms1024M -Xmn256M -Dlog4j.configurationFile=log4j2.xml -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:SurvivorRatio=16 -XX:GCTimeRatio=19 -Xnoclassgc -XX:MaxGCPauseMillis=100 -XX:ParallelGCThreads=2 -XX:+AggressiveOpts -jar spigot-1.8.jar nogui

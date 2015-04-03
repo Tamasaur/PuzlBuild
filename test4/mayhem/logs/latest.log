@@ -1,0 +1,99 @@
+[11:23:02] [Server thread/INFO]: Starting minecraft server version 1.8
+[11:23:02] [Server thread/INFO]: Loading properties
+[11:23:02] [Server thread/INFO]: Default game type: SURVIVAL
+[11:23:02] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-952179b-43207df (MC: 1.8) (Implementing API version 1.8-R0.1-SNAPSHOT)
+[11:23:02] [Server thread/INFO]: Debug logging is disabled
+[11:23:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:23:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:23:02] [Server thread/INFO]: Generating keypair
+[11:23:02] [Server thread/INFO]: Starting Minecraft server on *:13114
+[11:23:02] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[11:23:02] [Server thread/INFO]: [CleanroomGenerator] Loading CleanroomGenerator v1.0.0
+[11:23:02] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.1
+[11:23:02] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[11:23:02] [Server thread/INFO]: [NthMayhem] Loading NthMayhem v1.0
+[11:23:02] [Server thread/INFO]: [NthCameras] Loading NthCameras v1.1
+[11:23:02] [Server thread/INFO]: [CleanroomGenerator] Enabling CleanroomGenerator v1.0.0
+[11:23:02] [Server thread/INFO]: [CleanroomGenerator] CleanroomGenerator v1.0.0 enabled
+[11:23:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:23:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:23:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:23:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:23:02] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[11:23:02] [Server thread/INFO]: Preparing level "world"
+[11:23:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:23:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:23:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:23:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:23:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:23:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:23:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:23:02] [Server thread/INFO]: Clear tick list: false
+[11:23:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:23:02] [Server thread/INFO]: View Distance: 10
+[11:23:02] [Server thread/INFO]: Max Entity Collisions: 8
+[11:23:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:23:02] [Server thread/INFO]: Mob Spawn Range: 4
+[11:23:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:23:02] [Server thread/INFO]: Anti X-Ray: true
+[11:23:02] [Server thread/INFO]: 	Engine Mode: 1
+[11:23:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:23:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:23:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:23:02] [Server thread/INFO]: Alternative Hopper Ticking: false
+[11:23:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:23:02] [Server thread/INFO]: Random Lighting Updates: false
+[11:23:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:23:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:23:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:23:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:23:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:23:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:23:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:23:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:23:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:23:02] [Server thread/INFO]: Max TNT Explosions: 100
+[11:23:02] [Server thread/INFO]: Structure Info Saving: true
+[11:23:02] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3505522324363341323)
+[11:23:03] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.1
+[11:23:03] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[11:23:03] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[11:23:03] [Server thread/INFO]: [NthMayhem] Enabling NthMayhem v1.0
+[11:23:03] [Server thread/INFO]: [NthMayhem] [{mob=ZOMBIE, count=100}, {mob=SKELETON, count=60}, {mob=CREEPER, count=40}, {mob=SPIDER, count=60}]
+[11:23:03] [Server thread/INFO]: [NthMayhem] Added mob cap control: ZOMBIE - 100
+[11:23:03] [Server thread/INFO]: [NthMayhem] Added mob cap control: SKELETON - 60
+[11:23:03] [Server thread/INFO]: [NthMayhem] Added mob cap control: CREEPER - 40
+[11:23:03] [Server thread/INFO]: [NthMayhem] Added mob cap control: SPIDER - 60
+[11:23:03] [Server thread/ERROR]: [NthMayhem] Chest loot definition errors for loot tier 2. This tier won't be available ingame until errors are fixed.
+[11:23:03] [Server thread/WARN]: java.lang.IllegalArgumentException: No enum constant org.bukkit.Material.COOKED_PORKCHOP
+[11:23:03] [Server thread/WARN]: 	at java.lang.Enum.valueOf(Unknown Source)
+[11:23:03] [Server thread/WARN]: 	at org.bukkit.Material.valueOf(Material.java:1)
+[11:23:03] [Server thread/WARN]: 	at com.nthgames.nthmayhem.ChestController.loadConfig(ChestController.java:53)
+[11:23:03] [Server thread/WARN]: 	at com.nthgames.nthmayhem.NthMayhem.applyConfig(NthMayhem.java:236)
+[11:23:03] [Server thread/WARN]: 	at com.nthgames.nthmayhem.NthMayhem.onEnable(NthMayhem.java:107)
+[11:23:03] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[11:23:03] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335)
+[11:23:03] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[11:23:03] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.loadPlugin(CraftServer.java:356)
+[11:23:03] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R1.CraftServer.enablePlugins(CraftServer.java:316)
+[11:23:03] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R1.MinecraftServer.q(MinecraftServer.java:402)
+[11:23:03] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R1.MinecraftServer.k(MinecraftServer.java:370)
+[11:23:03] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R1.MinecraftServer.a(MinecraftServer.java:325)
+[11:23:03] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R1.DedicatedServer.init(DedicatedServer.java:211)
+[11:23:03] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:494)
+[11:23:03] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[11:23:03] [Server thread/INFO]: [NthMayhem] Loaded 3 lobby locations
+[11:23:03] [Server thread/INFO]: [NthMayhem] CornerA: world: world, x - -173, y - 30, z - -182, yaw - 179.39, pitch - -3.45, CornerB: world: world, x - -443, y - 30, z - -452, yaw - 179.39, pitch - -3.45
+[11:23:03] [Server thread/INFO]: [NthMayhem] Preventing weather changes.
+[11:23:03] [Server thread/INFO]: [NthMayhem] Time flow stopped.
+[11:23:03] [Server thread/INFO]: [NthMayhem] Fire spread disabled.
+[11:23:03] [Server thread/INFO]: [NthMayhem] Monsters natural spawning disabled.
+[11:23:03] [Server thread/INFO]: [NthMayhem] Player login messages are hidden.
+[11:23:03] [Server thread/INFO]: [NthCameras] Enabling NthCameras v1.1
+[11:23:03] [Server thread/INFO]: [NthCameras] Loaded 5 camera definitions from disk.
+[11:23:03] [Server thread/INFO]: [NthCameras] [{name=mayhem1, delay=60}, {name=mayhem2, delay=60}, {name=mayhem3, delay=60}, {name=mayhem4, delay=60}, {name=mayhem5, delay=60}]
+[11:23:03] [Server thread/INFO]: [NthCameras] Script contains 5 entries.
+[11:23:03] [Server thread/INFO]: [NthCameras] Camera script loaded successfully.
+[11:23:03] [Server thread/INFO]: [NthCameras] Loaded 3 camera accounts from disk
+[11:23:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:23:03] [Server thread/INFO]: Done (1.009s)! For help, type "help" or "?"

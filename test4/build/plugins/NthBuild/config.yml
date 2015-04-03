@@ -1,0 +1,138 @@
+# Print debug messages?
+debug: false
+
+clear-inventory: true
+clear-potion-effects: true
+teleport-to-spawn: true
+
+# List of plots. x/y/z point should be lowest values of x/z
+plots:
+#1
+  Derpy:
+    x: -755
+    y: 5
+    z: 271
+    width: 28
+    length: 28
+#2
+  Blazes:
+    x: -722
+    y: 5
+    z: 271
+    width: 28
+    length: 28
+#3
+  Withers:
+    x: -689
+    y: 5
+    z: 271
+    width: 28
+    length: 28
+ #4 
+  Creepers:
+    x: -656
+    y: 5
+    z: 271
+    width: 28
+    length: 28
+ #5 
+  Skeletons:
+    x: -755
+    y: 5
+    z: 304
+    width: 28
+    length: 28
+ #6 
+  Spiders:
+    x: -722
+    y: 5
+    z: 304
+    width: 28
+    length: 28
+ #7 
+  Giants:
+    x: -689
+    y: 5
+    z: 304
+    width: 28
+    length: 28
+ #8 
+  Zombies:
+    x: -656
+    y: 5
+    z: 304
+    width: 28
+    length: 28
+ #9 
+  Endermen:
+    x: -755
+    y: 5
+    z: 337
+    width: 28
+    length: 28
+ #10 
+  Cave Spiders:
+    x: -722
+    y: 5
+    z: 337
+    width: 28
+    length: 28
+ #11
+  Silverfish:
+    x: -689
+    y: 5
+    z: 337
+    width: 28
+    length: 28
+ #12
+  Slimes:
+    x: -656
+    y: 5
+    z: 337
+    width: 28
+    length: 28
+#13
+  Apatasaurus:
+    x: -755
+    y: 5
+    z: 370
+    width: 28
+    length: 28
+#14
+  Diplodocus:
+    x: -722
+    y: 5
+    z: 370
+    width: 28
+    length: 28
+#15
+    Tyrannosaurus:
+    x: -689
+    y: 5
+    z: 370
+    width: 28
+    length: 28
+#16
+    Egoraptor:
+    x: -656
+    y: 5
+    z: 370
+    width: 28
+    length: 28
+
+max-build-height: 100 # the highest y block they can build at
+
+# Timing configuration, in minutes
+first-break: 15 # at 25 minutes, a break starts
+second-break: 18 # at 25 minutes + 5 minute break (30 minutes) + 25 more minutes of building
+final-break: 26 # at 55 minutes + 5 minute break (60 minutes) + 25 more minutes of building
+
+break-time: 1 # How long a break is
+
+plot-movement-msg: You cannot leave your plot.
+
+# Messages sent to players. You can use &0..&f color codes.
+# All messages starting with error-* have the prefix automatically added in front.
+# When rewriting messages that contain text like %d and %s make sure you keep it.
+messages:
+  prefix: '&a[NthGames]'

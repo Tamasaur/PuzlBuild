@@ -1,0 +1,18 @@
+# Print debug messages?
+debug: false
+
+clear-inventory: true
+clear-potion-effects: true
+teleport-to-spawn: true
+stop-login-messages: true
+
+stop-fire-spread: true
+stop-time-flow: true
+
+block-mob-spawns: true
+
+# Messages sent to players. You can use &0..&f color codes.
+# All messages starting with error-* have the prefix automatically added in front.
+# When rewriting messages that contain text like %d and %s make sure you keep it.
+messages:
+  prefix: '&c[NthGames]'

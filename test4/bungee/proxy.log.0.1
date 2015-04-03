@@ -1,0 +1,26 @@
+10:05:54 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+10:05:54 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+10:05:54 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+10:05:54 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+10:05:54 [WARNING] Forced host server pvp is not defined
+10:05:54 [INFO] [NthGamesController] Loading config.yml..
+10:05:54 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+10:05:54 [WARNING] Could not bind to host /0.0.0.0:25565
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:478)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1021)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:455)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:844)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:197)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Unknown Source)

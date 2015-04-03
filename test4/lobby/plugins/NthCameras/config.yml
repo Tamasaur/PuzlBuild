@@ -1,0 +1,32 @@
+# Print debug messages?
+debug: true
+
+camera-file: "cameras.yml"
+script-file: "script.yml"
+
+# How often should the script timer process entries, in game ticks. Lower this
+# for better granularity at the expense of increased server load. 20 (= 1 second)
+# should be a good compromise for most purposes.
+script-tick-granularity: 20
+
+# Set to true to make camera players invisible to everyone else
+invisible-camera-players: true
+
+# Set players to creative mode when they're attached to the cam viewer
+set-creative-on-attach: true
+
+# Remove creative mode from players when they're detached from the cam viewer
+remove-creative-on-detach: true
+
+# Give flight to players when they're attached to the cam viewer? Creative setting above has priority over this.
+add-fly-on-attach: true
+
+# Remove flight from players when they're detached from the camera viewer? Creative setting above has priority over this.
+remove-fly-on-detach: true
+
+# Messages sent to players. You can use &0..&f color codes.
+# All messages starting with error-* have the prefix automatically added in front.
+# When rewriting messages that contain text like %d and %s make sure you keep it.
+messages:
+  prefix: '&c[NthCameras]'
+  print-loc: '&6Your current location is: &f%s'

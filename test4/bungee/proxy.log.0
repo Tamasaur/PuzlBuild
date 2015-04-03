@@ -1,0 +1,2230 @@
+17:17:45 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+17:17:45 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+17:17:45 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+17:17:46 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:17:46 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:17:46 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:17:46 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:17:46 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:17:46 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:17:46 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [INFO] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+17:17:46 [INFO] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [INFO] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [INFO] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [WARNING] Forced host server pvp is not defined
+17:17:46 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [INFO] [NthGamesController] Loading config.yml..
+17:17:46 [INFO] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+17:17:46 [INFO] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [INFO] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [INFO] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:17:46 [WARNING] Could not bind to host /0.0.0.0:25565
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:125)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:478)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1021)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:455)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:844)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:197)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:350)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Unknown Source)
+17:18:07 [INFO] Closing pending connections
+17:18:07 [INFO] Disconnecting 0 connections
+17:18:07 [INFO] Closing IO threads
+17:18:10 [INFO] Saving reconnect locations
+17:18:10 [INFO] Disabling plugins
+17:18:10 [INFO] [NthGamesController] Saving config.yml..
+17:19:03 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+17:19:03 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+17:19:03 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+17:19:03 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:19:03 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:19:03 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:19:03 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:19:03 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:19:03 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:19:03 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+17:19:03 [INFO] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [WARNING] Forced host server pvp is not defined
+17:19:03 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] [NthGamesController] Loading config.yml..
+17:19:03 [INFO] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+17:19:03 [INFO] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:19:03 [INFO] Listening on /0.0.0.0:25565
+17:20:28 [INFO] [/127.0.0.1:53722] <-> InitialHandler has connected
+17:20:30 [INFO] [PaulBGD] <-> InitialHandler has connected
+17:20:33 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:20:33 [SEVERE] [PaulBGD] <-> ServerConnector [lobby] - encountered exception
+java.lang.RuntimeException: Server is online mode!
+	at net.md_5.bungee.ServerConnector.handle(ServerConnector.java:261)
+	at net.md_5.bungee.protocol.packet.EncryptionRequest.handle(EncryptionRequest.java:56)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Unknown Source)
+17:20:33 [INFO] [PaulBGD] disconnected with: §fException Connecting:RuntimeException : Server is online mode! @ net.md_5.bungee.ServerConnector:261
+17:20:33 [INFO] [PaulBGD] <-> ServerConnector [lobby] has disconnected
+17:20:34 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:21:17 [INFO] [PaulBGD] <-> InitialHandler has connected
+17:21:18 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:22:25 [INFO] [PaulBGD] disconnected with: §fDon't go away. We'll be back shortly.
+17:22:25 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+17:22:26 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:23:13 [INFO] [PaulBGD] <-> InitialHandler has connected
+17:23:14 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:25:00 [INFO] [PaulBGD] disconnected with: §fDon't go away. We'll be back shortly.
+17:25:00 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+17:25:00 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:27:43 [INFO] [PaulBGD] <-> InitialHandler has connected
+17:27:44 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:34:56 [INFO] §aSent start message to server.
+17:34:59 [INFO] §aSent start message to server.
+17:35:00 [INFO] §aSent start message to server.
+17:37:53 [INFO] Closing listener [id: 0xfa28bc3b, /0:0:0:0:0:0:0:0:25565]
+17:37:53 [INFO] Closing pending connections
+17:37:53 [INFO] Disconnecting 1 connections
+17:37:53 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+17:37:53 [INFO] Closing IO threads
+17:37:53 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+17:37:53 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+17:37:53 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:37:55 [INFO] Saving reconnect locations
+17:37:55 [INFO] [NthGamesController] Saving config.yml..
+17:37:55 [INFO] Disabling plugins
+17:38:27 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+17:38:27 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+17:38:27 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+17:38:27 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:38:27 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:38:27 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:38:27 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:38:27 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:38:27 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:38:27 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+17:38:27 [INFO] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [WARNING] Forced host server pvp is not defined
+17:38:27 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] [NthGamesController] Loading config.yml..
+17:38:27 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+17:38:27 [INFO] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:38:27 [INFO] Listening on /0.0.0.0:25565
+17:38:52 [INFO] [PaulBGD] <-> InitialHandler has connected
+17:38:54 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:40:32 [INFO] [PaulBGD] disconnected with: §fFlying is not enabled on this server
+17:40:32 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+17:40:32 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:40:36 [INFO] [PaulBGD] <-> InitialHandler has connected
+17:40:37 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:40:44 [INFO] [PaulBGD] disconnected with: §fFlying is not enabled on this server
+17:40:44 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+17:40:44 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:40:46 [INFO] [PaulBGD] <-> InitialHandler has connected
+17:40:47 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:45:53 [INFO] LOBBY,BUILD,MAYHEM,DEATHMATCH
+17:47:32 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+17:47:32 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+17:47:47 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:47:47 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+17:48:33 [INFO] [PaulBGD] disconnected with: §fDon't go away. We'll be back shortly.
+17:48:33 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+17:48:33 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:48:43 [INFO] Closing listener [id: 0x38d26b5d, /0:0:0:0:0:0:0:0:25565]
+17:48:43 [INFO] Closing pending connections
+17:48:43 [INFO] Disconnecting 0 connections
+17:48:43 [INFO] Closing IO threads
+17:48:45 [INFO] Saving reconnect locations
+17:48:45 [INFO] Disabling plugins
+17:48:45 [INFO] [NthGamesController] Saving config.yml..
+17:49:47 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+17:49:47 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+17:49:47 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+17:49:47 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:49:47 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:49:47 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:49:47 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:49:47 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:49:47 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:49:47 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:47 [INFO] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:47 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+17:49:47 [INFO] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:47 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:47 [INFO] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:47 [INFO] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:47 [WARNING] Forced host server pvp is not defined
+17:49:47 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:47 [INFO] [NthGamesController] Loading config.yml..
+17:49:47 [INFO] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:48 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+17:49:48 [INFO] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:48 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:48 [INFO] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:48 [INFO] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:49:48 [INFO] Listening on /0.0.0.0:25565
+17:49:49 [INFO] [/127.0.0.1:56540] <-> InitialHandler has connected
+17:49:51 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:50:01 [INFO] §aChanged time by -10 seconds.
+17:50:05 [INFO] §aChanged time by -10 seconds.
+17:50:05 [INFO] §aChanged time by -10 seconds.
+17:50:05 [INFO] §aChanged time by -10 seconds.
+17:50:48 [INFO] [PaulBGD] disconnected with: §fDon't go away. We'll be back shortly.
+17:50:48 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+17:50:49 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:51:18 [INFO] [PaulBGD] <-> InitialHandler has connected
+17:51:19 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:51:28 [INFO] §aChanged time by -10 seconds.
+17:51:29 [INFO] §aChanged time by -10 seconds.
+17:51:30 [INFO] §aChanged time by -10 seconds.
+17:51:30 [INFO] §aChanged time by -10 seconds.
+17:51:31 [INFO] §aChanged time by -10 seconds.
+17:51:32 [INFO] §aChanged time by -10 seconds.
+17:51:40 [INFO] §aChanged time by -10 seconds.
+17:51:42 [INFO] §aChanged time by -10 seconds.
+17:51:42 [INFO] §aChanged time by -10 seconds.
+17:51:44 [INFO] §aChanged time by -10 seconds.
+17:51:44 [INFO] §aChanged time by -10 seconds.
+17:51:50 [INFO] §aChanged time by -10 seconds.
+17:51:51 [INFO] §aChanged time by -10 seconds.
+17:52:09 [INFO] §aChanged time by -100 seconds.
+17:52:10 [INFO] §aChanged time by -100 seconds.
+17:52:13 [INFO] §aChanged time by -10 seconds.
+17:52:27 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+17:52:27 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+17:53:12 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:53:12 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+17:53:12 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+17:53:12 [INFO] [/127.0.0.1:56661] <-> InitialHandler has connected
+17:53:14 [INFO] [PaulBGD] <-> InitialHandler has connected
+17:53:14 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+17:53:40 [INFO] [PaulBGD] disconnected with: §fServer closed
+17:53:40 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+17:53:41 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:54:31 [INFO] Closing listener [id: 0x13e8f4ea, /0:0:0:0:0:0:0:0:25565]
+17:54:31 [INFO] Closing pending connections
+17:54:31 [INFO] Disconnecting 0 connections
+17:54:31 [INFO] Closing IO threads
+17:54:34 [INFO] Saving reconnect locations
+17:54:34 [INFO] Disabling plugins
+17:54:34 [INFO] [NthGamesController] Saving config.yml..
+17:54:36 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+17:54:36 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+17:54:36 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+17:54:37 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+17:54:37 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+17:54:37 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+17:54:37 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+17:54:37 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+17:54:37 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+17:54:37 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Loaded plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+17:54:37 [INFO] Loaded plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Loaded plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Loaded plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [WARNING] Forced host server pvp is not defined
+17:54:37 [INFO] [NthGamesController] Loading config.yml..
+17:54:37 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Enabled plugin cmd_find version git:cmd_find:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+17:54:37 [INFO] Enabled plugin cmd_server version git:cmd_server:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Enabled plugin cmd_send version git:cmd_send:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Enabled plugin cmd_list version git:cmd_list:1.8-SNAPSHOT:"3973c51":1055 by SpigotMC
+17:54:37 [INFO] Listening on /0.0.0.0:25565
+17:54:38 [INFO] [/127.0.0.1:56745] <-> InitialHandler has connected
+17:54:39 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+17:54:42 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+17:54:43 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+17:54:51 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+17:54:51 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+17:54:51 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+17:54:52 [INFO] [/127.0.0.1:56759] <-> InitialHandler has connected
+18:02:06 [INFO] [/127.0.0.1:57755] <-> InitialHandler has connected
+18:02:07 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+18:05:24 [INFO] Closing listener [id: 0xf6284d8e, /0:0:0:0:0:0:0:0:25565]
+18:05:24 [INFO] Closing pending connections
+18:05:24 [INFO] Disconnecting 1 connections
+18:05:24 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+18:05:24 [INFO] Closing IO threads
+18:05:24 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:05:24 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+18:05:24 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+18:05:26 [INFO] Saving reconnect locations
+18:05:26 [INFO] Disabling plugins
+18:05:26 [INFO] [NthGamesController] Saving config.yml..
+18:06:02 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+18:06:02 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+18:06:02 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+18:06:02 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+18:06:02 [WARNING] Forced host server pvp is not defined
+18:06:02 [INFO] [NthGamesController] Loading config.yml..
+18:06:02 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+18:06:02 [INFO] Listening on /0.0.0.0:25565
+18:10:46 [INFO] [/127.0.0.1:58142] <-> InitialHandler has connected
+18:10:47 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+18:11:14 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:11:14 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+18:11:14 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+18:11:15 [INFO] [/127.0.0.1:58156] <-> InitialHandler has connected
+18:11:17 [INFO] [PaulBGD] <-> InitialHandler has connected
+18:11:17 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+18:11:22 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:11:22 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+18:11:22 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+18:11:23 [INFO] [/127.0.0.1:58168] <-> InitialHandler has connected
+18:11:27 [INFO] [PaulBGD] <-> InitialHandler has connected
+18:11:27 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+18:11:31 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:11:31 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+18:11:31 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+18:11:32 [INFO] [/127.0.0.1:58189] <-> InitialHandler has connected
+18:16:00 [INFO] [PaulBGD] <-> InitialHandler has connected
+18:16:00 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+18:21:29 [INFO] §aSent start message to server.
+18:21:29 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+18:21:29 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+18:49:08 [INFO] [PaulBGD] disconnected with: §fServer closed
+18:49:08 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+18:49:08 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:49:14 [INFO] Closing listener [id: 0x5fbdfba5, /0:0:0:0:0:0:0:0:25565]
+18:49:14 [INFO] Closing pending connections
+18:49:14 [INFO] Disconnecting 0 connections
+18:49:14 [INFO] Closing IO threads
+18:49:16 [INFO] Saving reconnect locations
+18:49:16 [INFO] [NthGamesController] Saving config.yml..
+18:49:16 [INFO] Disabling plugins
+18:49:19 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+18:49:19 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+18:49:19 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+18:49:20 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+18:49:20 [WARNING] Forced host server pvp is not defined
+18:49:20 [INFO] [NthGamesController] Loading config.yml..
+18:49:20 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+18:49:20 [INFO] Listening on /0.0.0.0:25565
+18:49:24 [INFO] [/127.0.0.1:62314] <-> InitialHandler has connected
+18:49:26 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+18:49:35 [INFO] §aChanged time by -300 seconds.
+18:49:38 [INFO] §aChanged time by -3100 seconds.
+18:49:44 [INFO] §aChanged time by -3000 seconds.
+18:49:48 [INFO] §aChanged time by 7000 seconds.
+18:49:54 [INFO] §aChanged time by -980 seconds.
+18:50:08 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+18:50:08 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+18:50:20 [INFO] §aSent start message to server.
+18:52:45 [INFO] [PaulBGD] disconnected with: §fServer closed
+18:52:45 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+18:52:45 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:53:22 [INFO] [/127.0.0.1:62389] <-> InitialHandler has connected
+18:53:24 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+18:53:27 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:53:27 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+18:53:27 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+18:53:27 [INFO] [/127.0.0.1:62403] <-> InitialHandler has connected
+18:53:29 [INFO] [PaulBGD] <-> InitialHandler has connected
+18:53:30 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+18:53:36 [INFO] §aSent start message to server.
+18:54:38 [INFO] [PaulBGD] disconnected with: §fServer closed
+18:54:38 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+18:54:39 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:54:50 [INFO] [PaulBGD] <-> InitialHandler has connected
+18:54:50 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+18:54:54 [INFO] §aSent start message to server.
+18:55:54 [INFO] [PaulBGD] disconnected with: §fServer closed
+18:55:54 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+18:55:54 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:56:05 [INFO] [PaulBGD] <-> InitialHandler has connected
+18:56:05 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+18:56:10 [INFO] §aSent start message to server.
+18:56:55 [INFO] [PaulBGD] disconnected with: §fServer closed
+18:56:55 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+18:56:56 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:57:46 [INFO] [PaulBGD] <-> InitialHandler has connected
+18:57:46 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+18:57:50 [INFO] §aSent start message to server.
+18:57:54 [INFO] [PaulBGD] disconnected with: §fServer closed
+18:57:54 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+18:57:54 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:58:09 [INFO] §aSent start message to server.
+18:58:10 [INFO] [PaulBGD] <-> InitialHandler has connected
+18:58:11 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+18:58:21 [INFO] §aSent start message to server.
+19:12:24 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:12:24 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:12:25 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:12:51 [INFO] [PaulBGD] <-> InitialHandler has connected
+19:12:51 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:12:56 [INFO] §aSent start message to server.
+19:15:22 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:15:22 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:15:22 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:16:06 [INFO] [PaulBGD] <-> InitialHandler has connected
+19:16:07 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:16:09 [INFO] §aSent start message to server.
+19:18:41 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:18:41 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:18:42 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:19:14 [INFO] [PaulBGD] <-> InitialHandler has connected
+19:19:14 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:19:19 [INFO] §aSent start message to server.
+19:20:24 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:20:24 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:20:25 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:20:41 [INFO] [PaulBGD] <-> InitialHandler has connected
+19:20:42 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:20:45 [INFO] §aSent start message to server.
+19:21:06 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:21:06 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:21:07 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:22:01 [INFO] [PaulBGD] <-> InitialHandler has connected
+19:22:02 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:23:47 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:23:47 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:23:48 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:26:06 [INFO] [PaulBGD] <-> InitialHandler has connected
+19:26:07 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:27:46 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:27:46 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:27:46 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:27:56 [INFO] [PaulBGD] <-> InitialHandler has connected
+19:27:58 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:30:52 [INFO] §aChanged time by -250 seconds.
+19:31:24 [INFO] §aChanged time by 60 seconds.
+19:31:48 [INFO] [PaulBGD] disconnected with: §fDon't go away. We'll be back shortly.
+19:31:48 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:31:48 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:32:10 [INFO] [PaulBGD] <-> InitialHandler has connected
+19:32:10 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:32:16 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:32:16 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+19:32:16 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:32:21 [INFO] Closing listener [id: 0x952b97d9, /0:0:0:0:0:0:0:0:25565]
+19:32:21 [INFO] Closing pending connections
+19:32:21 [INFO] Disconnecting 0 connections
+19:32:21 [INFO] Closing IO threads
+19:32:23 [INFO] Saving reconnect locations
+19:32:23 [INFO] Disabling plugins
+19:32:23 [INFO] [NthGamesController] Saving config.yml..
+19:32:27 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:32:27 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:32:27 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:32:27 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:32:27 [WARNING] Forced host server pvp is not defined
+19:32:27 [INFO] [NthGamesController] Loading config.yml..
+19:32:27 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:32:27 [INFO] Listening on /0.0.0.0:25565
+19:32:28 [INFO] [/127.0.0.1:64829] <-> InitialHandler has connected
+19:32:31 [INFO] [/127.0.0.1:64836] <-> InitialHandler has connected
+19:32:32 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:33:43 [INFO] §aChanged time by -200 seconds.
+19:33:46 [INFO] §aChanged time by -100 seconds.
+19:34:00 [INFO] §aChanged time by 0 seconds.
+19:34:01 [INFO] §aChanged time by 0 seconds.
+19:34:01 [INFO] §aChanged time by 0 seconds.
+19:34:02 [INFO] §aChanged time by 0 seconds.
+19:34:02 [INFO] §aChanged time by 0 seconds.
+19:34:03 [INFO] §aChanged time by 0 seconds.
+19:34:03 [INFO] §aChanged time by 0 seconds.
+19:34:03 [INFO] §aChanged time by 0 seconds.
+19:34:04 [INFO] §aChanged time by 0 seconds.
+19:34:04 [INFO] §aChanged time by 0 seconds.
+19:34:04 [INFO] §aChanged time by 0 seconds.
+19:34:05 [INFO] §aChanged time by 0 seconds.
+19:34:05 [INFO] §aChanged time by 0 seconds.
+19:34:05 [INFO] §aChanged time by 0 seconds.
+19:34:06 [INFO] §aChanged time by 0 seconds.
+19:34:06 [INFO] §aChanged time by 0 seconds.
+19:34:06 [INFO] §aChanged time by 0 seconds.
+19:34:07 [INFO] §aChanged time by 0 seconds.
+19:34:07 [INFO] §aChanged time by 0 seconds.
+19:34:07 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:34:08 [INFO] §aChanged time by 0 seconds.
+19:34:08 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:37:44 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:37:44 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:37:45 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:37:52 [INFO] Closing listener [id: 0x317de639, /0:0:0:0:0:0:0:0:25565]
+19:37:52 [INFO] Closing pending connections
+19:37:52 [INFO] Disconnecting 0 connections
+19:37:52 [INFO] Closing IO threads
+19:37:54 [INFO] Saving reconnect locations
+19:37:54 [INFO] [NthGamesController] Saving config.yml..
+19:37:54 [INFO] Disabling plugins
+19:38:20 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:38:20 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:38:20 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:38:20 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:38:20 [WARNING] Forced host server pvp is not defined
+19:38:20 [INFO] [NthGamesController] Loading config.yml..
+19:38:20 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:38:20 [INFO] Listening on /0.0.0.0:25565
+19:38:24 [INFO] [NodeJs] <-> InitialHandler has connected
+19:38:27 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+19:38:32 [INFO] [PaulBGD] <-> InitialHandler has connected
+19:38:33 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:38:47 [INFO] §aChanged time by -300 seconds.
+19:38:50 [INFO] §aChanged time by -100 seconds.
+19:38:52 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+19:38:52 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:38:53 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:38:53 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+19:44:55 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:44:55 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:44:56 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:44:57 [WARNING] [NodeJs] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+19:44:57 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+19:44:57 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+19:44:57 [INFO] Closing listener [id: 0xf3687e26, /0:0:0:0:0:0:0:0:25565]
+19:44:57 [INFO] Closing pending connections
+19:44:57 [INFO] Disconnecting 1 connections
+19:44:57 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+19:44:57 [INFO] Closing IO threads
+19:44:57 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+19:44:57 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+19:44:57 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+19:45:00 [INFO] Saving reconnect locations
+19:45:00 [INFO] Disabling plugins
+19:45:00 [INFO] [NthGamesController] Saving config.yml..
+19:45:00 [INFO] Thank you and goodbye
+19:46:16 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:46:16 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:46:16 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:46:16 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:46:16 [WARNING] Forced host server pvp is not defined
+19:46:16 [INFO] [NthGamesController] Loading config.yml..
+19:46:16 [INFO] [NthGamesController] Saving config.yml..
+19:46:16 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:46:16 [INFO] Listening on /0.0.0.0:25565
+19:46:28 [INFO] [/127.0.0.1:49758] <-> InitialHandler has connected
+19:46:30 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:46:41 [INFO] §aChanged time by -300 seconds.
+19:46:43 [INFO] §aChanged time by -100 seconds.
+19:46:48 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:46:49 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:47:13 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:47:13 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:47:13 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:47:14 [INFO] Closing listener [id: 0x0c270954, /0:0:0:0:0:0:0:0:25565]
+19:47:14 [INFO] Closing pending connections
+19:47:14 [INFO] Disconnecting 0 connections
+19:47:14 [INFO] Closing IO threads
+19:47:16 [INFO] Saving reconnect locations
+19:47:16 [INFO] Disabling plugins
+19:47:16 [INFO] [NthGamesController] Saving config.yml..
+19:47:20 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:47:20 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:47:20 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:47:21 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:47:21 [WARNING] Forced host server pvp is not defined
+19:47:21 [INFO] [NthGamesController] Loading config.yml..
+19:47:21 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:47:21 [INFO] Listening on /0.0.0.0:25565
+19:47:33 [INFO] [/127.0.0.1:49816] <-> InitialHandler has connected
+19:47:34 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:47:36 [INFO] [NodeJs] <-> InitialHandler has connected
+19:47:36 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+19:47:44 [INFO] §aChanged time by -300 seconds.
+19:47:49 [INFO] §aChanged time by -100 seconds.
+19:47:55 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:47:55 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+19:47:56 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:47:56 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+19:54:11 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:54:11 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:54:11 [WARNING] [NodeJs] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+19:54:11 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+19:54:11 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+19:54:11 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:54:14 [INFO] Closing listener [id: 0xf7bba7f7, /0:0:0:0:0:0:0:0:25565]
+19:54:14 [INFO] Closing pending connections
+19:54:14 [INFO] Disconnecting 1 connections
+19:54:14 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+19:54:14 [INFO] Closing IO threads
+19:54:14 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+19:54:14 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+19:54:14 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+19:54:16 [INFO] Saving reconnect locations
+19:54:16 [INFO] Disabling plugins
+19:54:16 [INFO] [NthGamesController] Saving config.yml..
+19:54:20 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:54:20 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:54:20 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:54:21 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:54:21 [WARNING] Forced host server pvp is not defined
+19:54:21 [INFO] [NthGamesController] Loading config.yml..
+19:54:21 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:54:21 [INFO] Listening on /0.0.0.0:25565
+19:54:41 [INFO] [/127.0.0.1:50854] <-> InitialHandler has connected
+19:54:42 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:54:42 [INFO] [NodeJs] <-> InitialHandler has connected
+19:54:43 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+19:54:47 [INFO] §aChanged time by -300 seconds.
+19:54:51 [INFO] §aChanged time by -100 seconds.
+19:54:51 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+19:54:51 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:54:52 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+19:54:53 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:58:22 [INFO] [NodeJs] disconnected with: §fServer closed
+19:58:22 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+19:58:23 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+19:58:23 [WARNING] [PaulBGD] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+19:58:23 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:58:23 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:58:24 [INFO] Closing listener [id: 0xc49fa79c, /0:0:0:0:0:0:0:0:25565]
+19:58:24 [INFO] Closing pending connections
+19:58:24 [INFO] Disconnecting 1 connections
+19:58:24 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+19:58:24 [INFO] Closing IO threads
+19:58:24 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+19:58:24 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:58:24 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:58:26 [INFO] Saving reconnect locations
+19:58:26 [INFO] Disabling plugins
+19:58:26 [INFO] [NthGamesController] Saving config.yml..
+19:58:30 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:58:30 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:58:30 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:58:31 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:58:31 [WARNING] Forced host server pvp is not defined
+19:58:31 [INFO] [NthGamesController] Loading config.yml..
+19:58:31 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:58:31 [INFO] Listening on /0.0.0.0:25565
+19:58:42 [INFO] [/127.0.0.1:51002] <-> InitialHandler has connected
+19:58:44 [INFO] [NodeJs] <-> InitialHandler has connected
+19:58:44 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:58:44 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+19:58:48 [INFO] §aChanged time by -400 seconds.
+19:59:02 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:59:02 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+19:59:02 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+19:59:02 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+20:02:10 [INFO] [NodeJs] disconnected with: §fServer closed
+20:02:10 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+20:02:10 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+20:02:11 [INFO] Closing listener [id: 0x1b29836e, /0:0:0:0:0:0:0:0:25565]
+20:02:11 [INFO] Closing pending connections
+20:02:11 [INFO] Disconnecting 1 connections
+20:02:11 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+20:02:11 [INFO] Closing IO threads
+20:02:11 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+20:02:11 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+20:02:11 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+20:02:13 [INFO] Saving reconnect locations
+20:02:13 [INFO] Disabling plugins
+20:02:13 [INFO] [NthGamesController] Saving config.yml..
+20:02:28 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:02:28 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:02:28 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+20:02:29 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+20:02:29 [INFO] [NthGamesController] Loading config.yml..
+20:02:29 [WARNING] Forced host server pvp is not defined
+20:02:29 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+20:02:29 [INFO] Listening on /0.0.0.0:25565
+20:02:33 [INFO] [/127.0.0.1:51138] <-> InitialHandler has connected
+20:02:35 [INFO] [/127.0.0.1:51140] <-> InitialHandler has connected
+20:02:37 [INFO] [PaulBGD] disconnected with: §cCould not connect to default or fallback server, please try again later: java.net.ConnectException
+20:02:37 [INFO] [NodeJs] disconnected with: §cCould not connect to default or fallback server, please try again later: java.net.ConnectException
+20:02:38 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+20:02:38 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+20:02:41 [INFO] [PaulBGD] <-> InitialHandler has connected
+20:02:42 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+20:02:42 [INFO] [NodeJs] <-> InitialHandler has connected
+20:02:43 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+20:02:48 [INFO] §aChanged time by -400 seconds.
+20:03:02 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+20:03:02 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+20:03:03 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+20:03:03 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+20:04:33 [INFO] [PaulBGD] disconnected with: §fServer closed
+20:04:33 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+20:04:33 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+20:04:35 [INFO] Closing listener [id: 0x03811946, /0:0:0:0:0:0:0:0:25565]
+20:04:35 [INFO] Closing pending connections
+20:04:35 [INFO] Disconnecting 1 connections
+20:04:35 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+20:04:35 [INFO] Closing IO threads
+20:04:35 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+20:04:35 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+20:04:35 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+20:04:37 [INFO] Saving reconnect locations
+20:04:37 [INFO] Disabling plugins
+20:04:37 [INFO] [NthGamesController] Saving config.yml..
+20:42:22 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:42:22 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:42:22 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+20:42:23 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+20:42:23 [WARNING] Forced host server pvp is not defined
+20:42:23 [INFO] [NthGamesController] Loading config.yml..
+20:42:23 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+20:42:23 [INFO] Listening on /0.0.0.0:25565
+20:44:43 [INFO] Closing listener [id: 0xc9e096df, /0:0:0:0:0:0:0:0:25565]
+20:44:43 [INFO] Closing pending connections
+20:44:43 [INFO] Disconnecting 0 connections
+20:44:43 [INFO] Closing IO threads
+20:44:45 [INFO] Saving reconnect locations
+20:44:45 [INFO] Disabling plugins
+20:44:45 [INFO] [NthGamesController] Saving config.yml..
+15:30:15 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+15:30:15 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+15:30:15 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+15:30:15 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+15:30:15 [WARNING] Forced host server pvp is not defined
+15:30:15 [INFO] [NthGamesController] Loading config.yml..
+15:30:15 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+15:30:15 [INFO] Listening on /0.0.0.0:25565
+15:34:22 [INFO] Closing listener [id: 0x758edd0d, /0:0:0:0:0:0:0:0:25565]
+15:34:22 [INFO] Closing pending connections
+15:34:22 [INFO] Disconnecting 0 connections
+15:34:22 [INFO] Closing IO threads
+15:34:24 [INFO] Saving reconnect locations
+15:34:24 [INFO] Disabling plugins
+15:34:24 [INFO] [NthGamesController] Saving config.yml..
+15:35:33 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+15:35:33 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+15:35:33 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+15:35:34 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+15:35:36 [WARNING] Forced host server pvp is not defined
+15:35:36 [INFO] [NthGamesController] Loading config.yml..
+15:35:36 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+15:35:36 [INFO] Listening on /0.0.0.0:25565
+15:37:16 [INFO] [/127.0.0.1:60642] <-> InitialHandler has connected
+15:37:16 [WARNING] [/127.0.0.1:60642] <-> InitialHandler - IOException: An established connection was aborted by the software in your host machine
+15:37:17 [INFO] [/127.0.0.1:60648] <-> InitialHandler has connected
+15:37:26 [INFO] [/127.0.0.1:60673] <-> InitialHandler has connected
+15:37:27 [INFO] [/127.0.0.1:60678] <-> InitialHandler has connected
+15:37:30 [INFO] [/127.0.0.1:60685] <-> InitialHandler has connected
+15:37:32 [INFO] [NodeJs] <-> InitialHandler has connected
+15:37:33 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+15:37:33 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+15:37:59 [INFO] §aChanged time by 0 seconds.
+15:38:00 [INFO] §aChanged time by 0 seconds.
+15:38:00 [INFO] §aChanged time by 0 seconds.
+15:38:00 [INFO] §aChanged time by 0 seconds.
+15:38:03 [INFO] §aChanged time by -380 seconds.
+15:38:16 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+15:38:16 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+15:38:16 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+15:38:17 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+15:48:03 [INFO] §aChanged time by 0 seconds.
+15:48:04 [INFO] §aChanged time by 0 seconds.
+15:48:05 [INFO] §aChanged time by 0 seconds.
+15:48:05 [INFO] §aChanged time by 0 seconds.
+15:48:05 [INFO] §aChanged time by 0 seconds.
+15:48:06 [INFO] §aChanged time by 0 seconds.
+15:48:06 [INFO] §aChanged time by 0 seconds.
+15:48:06 [INFO] §aChanged time by 0 seconds.
+15:48:07 [INFO] §aChanged time by 0 seconds.
+15:48:07 [INFO] §aChanged time by 0 seconds.
+15:52:42 [INFO] [PaulBGD] disconnected with: §fServer closed
+15:52:42 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+15:52:43 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+15:52:45 [WARNING] [NodeJs] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+15:52:45 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+15:52:45 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+15:52:45 [INFO] [NodeJs] disconnected with: §fDon't go away. We'll be back shortly.
+15:52:45 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+15:52:45 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+15:52:46 [INFO] Closing listener [id: 0x95a0db65, /0:0:0:0:0:0:0:0:25565]
+15:52:46 [INFO] Closing pending connections
+15:52:46 [INFO] Disconnecting 0 connections
+15:52:46 [INFO] Closing IO threads
+15:52:49 [INFO] Saving reconnect locations
+15:52:49 [INFO] Disabling plugins
+15:52:49 [INFO] [NthGamesController] Saving config.yml..
+15:53:20 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+15:53:20 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+15:53:20 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+15:53:21 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+15:53:23 [INFO] [NthGamesController] Loading config.yml..
+15:53:23 [WARNING] Forced host server pvp is not defined
+15:53:23 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+15:53:24 [INFO] Listening on /0.0.0.0:25565
+15:53:40 [INFO] [/127.0.0.1:62044] <-> InitialHandler has connected
+15:53:41 [INFO] [/127.0.0.1:62048] <-> InitialHandler has connected
+15:53:42 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+15:53:42 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+15:53:56 [INFO] §aChanged time by -400 seconds.
+15:54:05 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+15:54:05 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+15:54:06 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+15:54:06 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:00:46 [INFO] [PaulBGD] disconnected with: §fServer closed
+16:00:46 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:00:47 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:00:47 [WARNING] [NodeJs] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+16:00:47 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:00:47 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:00:52 [INFO] [NodeJs] disconnected with: §fDon't go away. We'll be back shortly.
+16:00:52 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:00:53 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:00:54 [INFO] Closing listener [id: 0x10dcbb41, /0:0:0:0:0:0:0:0:25565]
+16:00:54 [INFO] Closing pending connections
+16:00:54 [INFO] Disconnecting 0 connections
+16:00:54 [INFO] Closing IO threads
+16:00:56 [INFO] Saving reconnect locations
+16:00:56 [INFO] [NthGamesController] Saving config.yml..
+16:00:56 [INFO] Disabling plugins
+16:01:02 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:01:02 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:01:02 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:01:02 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:01:05 [WARNING] Forced host server pvp is not defined
+16:01:05 [INFO] [NthGamesController] Loading config.yml..
+16:01:05 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:01:05 [INFO] Listening on /0.0.0.0:25565
+16:01:06 [INFO] §aChanged time by -400 seconds.
+16:01:16 [INFO] [/127.0.0.1:62317] <-> InitialHandler has connected
+16:01:17 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:01:24 [INFO] §aChanged time by -10 seconds.
+16:01:28 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:01:28 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:01:29 [INFO] [/127.0.0.1:62328] <-> InitialHandler has connected
+16:01:29 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:02:26 [INFO] [PaulBGD] disconnected with: §fServer closed
+16:02:26 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:02:27 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:02:30 [INFO] Closing listener [id: 0x2f637e51, /0:0:0:0:0:0:0:0:25565]
+16:02:30 [INFO] Closing pending connections
+16:02:30 [INFO] Disconnecting 1 connections
+16:02:30 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+16:02:30 [INFO] Closing IO threads
+16:02:30 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+16:02:30 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:02:30 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:02:32 [INFO] Saving reconnect locations
+16:02:32 [INFO] Disabling plugins
+16:02:32 [INFO] [NthGamesController] Saving config.yml..
+16:02:41 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:02:41 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:02:41 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:02:42 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:02:44 [WARNING] Forced host server pvp is not defined
+16:02:44 [INFO] [NthGamesController] Loading config.yml..
+16:02:44 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:02:44 [INFO] Listening on /0.0.0.0:25565
+16:02:59 [INFO] [PaulBGD] <-> InitialHandler has connected
+16:03:01 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:03:05 [INFO] [NodeJs] <-> InitialHandler has connected
+16:03:06 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:03:08 [INFO] §aChanged time by -400 seconds.
+16:03:09 [INFO] §aChanged time by -410 seconds.
+16:03:10 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:03:10 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:03:11 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:03:11 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:03:43 [SEVERE] Mar 27, 2015 4:03:43 PM net.md_5.bungee.event.EventBus post
+WARNING: Error dispatching event PluginMessageEvent(super=TargetedEvent(sender=net.md_5.bungee.ServerConnection@424bc220, receiver=PaulBGD), cancelled=false, tag=NthGames, data=[0, 3, 69, 110, 100]) to listener com.nthgames.controller.listeners.DataListener@6580cfdd
+java.lang.NullPointerException
+	at com.nthgames.controller.stages.StageController.endStage(StageController.java:60)
+	at com.nthgames.controller.listeners.DataListener.onPluginMessage(DataListener.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:47)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:367)
+	at net.md_5.bungee.connection.DownstreamBridge.handle(DownstreamBridge.java:222)
+	at net.md_5.bungee.protocol.packet.PluginMessage.handle(PluginMessage.java:62)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Unknown Source)
+
+
+16:05:51 [INFO] Closing listener [id: 0xd66d98d6, /0:0:0:0:0:0:0:0:25565]
+16:05:51 [INFO] Closing pending connections
+16:05:51 [INFO] Disconnecting 2 connections
+16:05:51 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+16:05:51 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+16:05:51 [INFO] Closing IO threads
+16:05:51 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+16:05:51 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:05:51 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:05:51 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+16:05:51 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:05:51 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:05:53 [INFO] Saving reconnect locations
+16:05:53 [INFO] Disabling plugins
+16:05:53 [INFO] [NthGamesController] Saving config.yml..
+16:06:34 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:06:34 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:06:34 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:06:35 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:06:37 [WARNING] Forced host server pvp is not defined
+16:06:37 [INFO] [NthGamesController] Loading config.yml..
+16:06:37 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:06:37 [INFO] Listening on /0.0.0.0:25565
+16:06:49 [INFO] [NodeJs] <-> InitialHandler has connected
+16:06:50 [INFO] [/127.0.0.1:63332] <-> InitialHandler has connected
+16:06:51 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:06:51 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:06:56 [INFO] §aChanged time by -400 seconds.
+16:06:59 [INFO] §aChanged time by -400 seconds.
+16:07:05 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:07:05 [INFO] Index: 1
+16:07:05 [INFO] Type: BUILD
+16:07:05 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:07:05 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:07:07 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:07:08 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:07:41 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:07:41 [INFO] Index: 2
+16:07:41 [INFO] Type: MAYHEM
+16:07:41 [SEVERE] Mar 27, 2015 4:07:41 PM net.md_5.bungee.event.EventBus post
+WARNING: Error dispatching event PluginMessageEvent(super=TargetedEvent(sender=net.md_5.bungee.ServerConnection@1ff94e53, receiver=NodeJs), cancelled=false, tag=NthGames, data=[0, 3, 69, 110, 100]) to listener com.nthgames.controller.listeners.DataListener@6580cfdd
+java.lang.NullPointerException
+	at com.nthgames.controller.stages.StageController.endStage(StageController.java:65)
+	at com.nthgames.controller.listeners.DataListener.onPluginMessage(DataListener.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:47)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:367)
+	at net.md_5.bungee.connection.DownstreamBridge.handle(DownstreamBridge.java:222)
+	at net.md_5.bungee.protocol.packet.PluginMessage.handle(PluginMessage.java:62)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Unknown Source)
+
+
+16:11:19 [INFO] [NodeJs] disconnected with: §fServer closed
+16:11:19 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:11:20 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:11:23 [INFO] Closing listener [id: 0x8bb9ab1e, /0:0:0:0:0:0:0:0:25565]
+16:11:23 [INFO] Closing pending connections
+16:11:23 [INFO] Disconnecting 1 connections
+16:11:23 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+16:11:23 [INFO] Closing IO threads
+16:11:23 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:11:23 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+16:11:23 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:11:26 [INFO] Saving reconnect locations
+16:11:26 [INFO] Disabling plugins
+16:11:26 [INFO] [NthGamesController] Saving config.yml..
+16:12:01 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:12:01 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:12:01 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:12:01 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:12:03 [WARNING] Forced host server pvp is not defined
+16:12:03 [INFO] [NthGamesController] Loading config.yml..
+16:12:03 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:12:03 [INFO] Listening on /0.0.0.0:25565
+16:12:05 [INFO] [/127.0.0.1:63579] <-> InitialHandler has connected
+16:12:06 [INFO] [PaulBGD] <-> InitialHandler has connected
+16:12:07 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:12:07 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:12:14 [INFO] §cCommand not found
+16:12:18 [INFO] §aChanged time by -500 seconds.
+16:12:18 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:12:18 [INFO] Index: 1
+16:12:18 [INFO] Type: BUILD
+16:12:18 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:12:18 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:12:19 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:12:19 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:12:50 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:12:50 [INFO] Index: 2
+16:12:50 [INFO] Type: MAYHEM
+16:12:57 [INFO] Closing listener [id: 0x54a65151, /0:0:0:0:0:0:0:0:25565]
+16:12:57 [INFO] Closing pending connections
+16:12:57 [INFO] Disconnecting 2 connections
+16:12:57 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+16:12:57 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+16:12:57 [INFO] Closing IO threads
+16:12:57 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+16:12:57 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:12:57 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:12:57 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:12:57 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+16:12:57 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:12:59 [INFO] Saving reconnect locations
+16:12:59 [INFO] Disabling plugins
+16:12:59 [INFO] [NthGamesController] Saving config.yml..
+16:13:24 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:13:24 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:13:24 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:13:24 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:13:26 [WARNING] Forced host server pvp is not defined
+16:13:26 [INFO] [NthGamesController] Loading config.yml..
+16:13:26 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:13:26 [INFO] Listening on /0.0.0.0:25565
+16:13:37 [INFO] [/127.0.0.1:63659] <-> InitialHandler has connected
+16:13:37 [INFO] [PaulBGD] <-> InitialHandler has connected
+16:13:38 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:13:38 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:13:40 [INFO] §aChanged time by -500 seconds.
+16:13:41 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:13:41 [INFO] Index: 1
+16:13:41 [INFO] Type: BUILD
+16:13:49 [INFO] §aChanged time by 200 seconds.
+16:13:56 [INFO] §aChanged time by 200 seconds.
+16:13:57 [INFO] Closing listener [id: 0x635c2987, /0:0:0:0:0:0:0:0:25565]
+16:13:57 [INFO] Closing pending connections
+16:13:57 [INFO] Disconnecting 2 connections
+16:13:57 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+16:13:57 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+16:13:57 [INFO] Closing IO threads
+16:13:57 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:13:57 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:13:57 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+16:13:57 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+16:13:57 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:13:57 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:13:59 [INFO] Saving reconnect locations
+16:13:59 [INFO] Disabling plugins
+16:13:59 [INFO] [NthGamesController] Saving config.yml..
+16:14:03 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:14:03 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:14:03 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:14:03 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:14:05 [WARNING] Forced host server pvp is not defined
+16:14:05 [INFO] [NthGamesController] Loading config.yml..
+16:14:05 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:14:05 [INFO] Listening on /0.0.0.0:25565
+16:14:14 [INFO] [/127.0.0.1:63730] <-> InitialHandler has connected
+16:14:15 [INFO] [/127.0.0.1:63732] <-> InitialHandler has connected
+16:14:15 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:14:15 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:14:22 [INFO] §aChanged time by -500 seconds.
+16:14:23 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:14:23 [INFO] Index: 1
+16:14:23 [INFO] Type: BUILD
+16:14:23 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:14:23 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:14:24 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:14:24 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:14:55 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:14:55 [INFO] Index: 2
+16:14:55 [INFO] Type: MAYHEM
+16:15:08 [INFO] Closing listener [id: 0x1413d9d3, /0:0:0:0:0:0:0:0:25565]
+16:15:08 [INFO] Closing pending connections
+16:15:08 [INFO] Disconnecting 2 connections
+16:15:08 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+16:15:08 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+16:15:08 [INFO] Closing IO threads
+16:15:08 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+16:15:08 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+16:15:08 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:15:08 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:15:08 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:15:08 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:15:10 [INFO] Saving reconnect locations
+16:15:10 [INFO] Disabling plugins
+16:15:10 [INFO] [NthGamesController] Saving config.yml..
+16:16:48 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:16:48 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:16:48 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:16:48 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:16:51 [WARNING] Forced host server pvp is not defined
+16:16:51 [INFO] [NthGamesController] Loading config.yml..
+16:16:51 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:16:51 [INFO] Listening on /0.0.0.0:25565
+16:17:08 [INFO] [/127.0.0.1:63842] <-> InitialHandler has connected
+16:17:08 [INFO] [/127.0.0.1:63846] <-> InitialHandler has connected
+16:17:09 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:17:09 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:17:14 [INFO] §aChanged time by -500 seconds.
+16:17:15 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:17:15 [INFO] Index: 1
+16:17:15 [INFO] Type: BUILD
+16:17:15 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:17:15 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:17:16 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:17:16 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:17:48 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:17:48 [INFO] Index: 2
+16:17:48 [INFO] Type: MAYHEM
+16:18:35 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:18:35 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+16:18:35 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:18:36 [INFO] [/127.0.0.1:63895] <-> InitialHandler has connected
+16:18:42 [INFO] Closing listener [id: 0xbc04d815, /0:0:0:0:0:0:0:0:25565]
+16:18:42 [INFO] Closing pending connections
+16:18:42 [INFO] Disconnecting 1 connections
+16:18:42 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+16:18:42 [INFO] Closing IO threads
+16:18:42 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+16:18:42 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:18:42 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:18:45 [INFO] Saving reconnect locations
+16:18:45 [INFO] Disabling plugins
+16:18:45 [INFO] [NthGamesController] Saving config.yml..
+16:19:50 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:19:50 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:19:50 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:19:51 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:19:53 [WARNING] Forced host server pvp is not defined
+16:19:53 [INFO] [NthGamesController] Loading config.yml..
+16:19:53 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:19:54 [INFO] Listening on /0.0.0.0:25565
+16:20:06 [INFO] [/127.0.0.1:63996] <-> InitialHandler has connected
+16:20:07 [INFO] [/127.0.0.1:63999] <-> InitialHandler has connected
+16:20:08 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:20:08 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:20:10 [INFO] §aChanged time by -400 seconds.
+16:20:29 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:20:29 [INFO] Index: 1
+16:20:29 [INFO] Type: BUILD
+16:20:29 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:20:29 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:20:30 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:20:30 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:21:01 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:21:01 [INFO] Index: 2
+16:21:01 [INFO] Type: MAYHEM
+16:21:29 [INFO] Closing listener [id: 0x46356cbd, /0:0:0:0:0:0:0:0:25565]
+16:21:29 [INFO] Closing pending connections
+16:21:29 [INFO] Disconnecting 2 connections
+16:21:29 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+16:21:29 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+16:21:29 [INFO] Closing IO threads
+16:21:29 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+16:21:29 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:21:29 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:21:29 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:21:29 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+16:21:29 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:21:31 [INFO] Saving reconnect locations
+16:21:31 [INFO] Disabling plugins
+16:21:31 [INFO] [NthGamesController] Saving config.yml..
+16:21:49 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:21:49 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:21:49 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:21:49 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:21:49 [WARNING] Forced host server pvp is not defined
+16:21:49 [INFO] [NthGamesController] Loading config.yml..
+16:21:49 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:21:49 [INFO] Listening on /0.0.0.0:25565
+16:23:16 [INFO] [PaulBGD] <-> InitialHandler has connected
+16:23:18 [INFO] [/127.0.0.1:64940] <-> InitialHandler has connected
+16:23:19 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:23:19 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:23:28 [INFO] §aChanged time by -500 seconds.
+16:23:28 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:23:28 [INFO] Index: 1
+16:23:28 [INFO] Type: BUILD
+16:23:28 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:23:28 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:23:28 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:23:29 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:24:06 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:24:06 [INFO] Index: 2
+16:24:06 [INFO] Type: MAYHEM
+16:24:06 [INFO] [NodeJs] <-> ServerConnector [mayhem] has connected
+16:24:06 [INFO] [PaulBGD] <-> ServerConnector [mayhem] has connected
+16:24:07 [SEVERE] [PaulBGD] <-> ServerConnector [mayhem] - encountered exception
+java.lang.RuntimeException: Server is online mode!
+	at net.md_5.bungee.ServerConnector.handle(ServerConnector.java:261)
+	at net.md_5.bungee.protocol.packet.EncryptionRequest.handle(EncryptionRequest.java:56)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Unknown Source)
+16:24:07 [INFO] [PaulBGD] <-> ServerConnector [mayhem] has disconnected
+16:24:07 [SEVERE] [NodeJs] <-> ServerConnector [mayhem] - encountered exception
+java.lang.RuntimeException: Server is online mode!
+	at net.md_5.bungee.ServerConnector.handle(ServerConnector.java:261)
+	at net.md_5.bungee.protocol.packet.EncryptionRequest.handle(EncryptionRequest.java:56)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Unknown Source)
+16:24:07 [INFO] [NodeJs] <-> ServerConnector [mayhem] has disconnected
+16:24:12 [INFO] [NodeJs] disconnected with: §fServer closed
+16:24:12 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:24:12 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:24:15 [WARNING] [PaulBGD] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+16:24:15 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:24:16 [INFO] §cCommand not found
+16:24:16 [INFO] [PaulBGD] disconnected with: §cCould not connect to default or fallback server, please try again later: java.net.ConnectException
+16:24:16 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:24:41 [INFO] Closing listener [id: 0x30e2bfaa, /0:0:0:0:0:0:0:0:25565]
+16:24:41 [INFO] Closing pending connections
+16:24:41 [INFO] Disconnecting 0 connections
+16:24:41 [INFO] Closing IO threads
+16:24:43 [INFO] Saving reconnect locations
+16:24:43 [INFO] Disabling plugins
+16:24:43 [INFO] [NthGamesController] Saving config.yml..
+16:24:57 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:24:57 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:24:57 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:24:58 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:24:58 [INFO] [NthGamesController] Loading config.yml..
+16:24:58 [WARNING] Forced host server pvp is not defined
+16:24:58 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:24:58 [INFO] Listening on /0.0.0.0:25565
+16:26:28 [INFO] [/127.0.0.1:65108] <-> InitialHandler has connected
+16:26:29 [INFO] [/127.0.0.1:65110] <-> InitialHandler has connected
+16:26:30 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:26:30 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:26:35 [INFO] §aChanged time by -500 seconds.
+16:26:36 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:26:36 [INFO] Index: 1
+16:26:36 [INFO] Type: BUILD
+16:26:36 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:26:36 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:26:37 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:26:37 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:27:10 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:27:10 [INFO] Index: 2
+16:27:10 [INFO] Type: MAYHEM
+16:27:10 [INFO] [NodeJs] <-> ServerConnector [mayhem] has connected
+16:27:10 [INFO] [PaulBGD] <-> ServerConnector [mayhem] has connected
+16:27:10 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:27:11 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:28:52 [INFO] [PaulBGD] disconnected with: §fDon't go away. We'll be back shortly.
+16:28:52 [INFO] [PaulBGD] <-> DownstreamBridge <-> [mayhem] has disconnected
+16:28:52 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:28:53 [INFO] [NodeJs] disconnected with: §fDon't go away. We'll be back shortly.
+16:28:53 [INFO] [NodeJs] <-> DownstreamBridge <-> [mayhem] has disconnected
+16:28:53 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:29:25 [INFO] §cCommand not found
+16:29:26 [INFO] Closing listener [id: 0x932f79ce, /0:0:0:0:0:0:0:0:25565]
+16:29:26 [INFO] Closing pending connections
+16:29:26 [INFO] Disconnecting 0 connections
+16:29:26 [INFO] Closing IO threads
+16:29:29 [INFO] Saving reconnect locations
+16:29:29 [INFO] Disabling plugins
+16:29:29 [INFO] [NthGamesController] Saving config.yml..
+16:29:57 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:29:57 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:29:57 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:29:57 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:29:57 [WARNING] Forced host server pvp is not defined
+16:29:57 [INFO] [NthGamesController] Loading config.yml..
+16:29:57 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:29:57 [INFO] Listening on /0.0.0.0:25565
+16:30:18 [INFO] [PaulBGD] <-> InitialHandler has connected
+16:30:19 [INFO] [NodeJs] <-> InitialHandler has connected
+16:30:20 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:30:20 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:30:27 [INFO] §aChanged time by -400 seconds.
+16:30:30 [INFO] §aChanged time by -400 seconds.
+16:30:30 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:30:30 [INFO] Index: 1
+16:30:30 [INFO] Type: BUILD
+16:30:30 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:30:30 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:30:31 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:30:31 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:31:04 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:31:04 [INFO] Index: 2
+16:31:04 [INFO] Type: MAYHEM
+16:31:04 [INFO] [PaulBGD] <-> ServerConnector [mayhem] has connected
+16:31:04 [INFO] [NodeJs] <-> ServerConnector [mayhem] has connected
+16:31:04 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:31:05 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:37:18 [INFO] [PaulBGD] disconnected with: §fDon't go away. We'll be back shortly.
+16:37:18 [INFO] [PaulBGD] <-> DownstreamBridge <-> [mayhem] has disconnected
+16:37:19 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:37:20 [WARNING] [NodeJs] <-> DownstreamBridge <-> [mayhem] - IOException: An existing connection was forcibly closed by the remote host
+16:37:20 [INFO] [NodeJs] <-> DownstreamBridge <-> [mayhem] has disconnected
+16:37:20 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:37:29 [INFO] [NodeJs] disconnected with: §fDon't go away. We'll be back shortly.
+16:37:29 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:37:29 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:37:30 [INFO] Closing listener [id: 0x5f48ef57, /0:0:0:0:0:0:0:0:25565]
+16:37:30 [INFO] Closing pending connections
+16:37:30 [INFO] Disconnecting 0 connections
+16:37:30 [INFO] Closing IO threads
+16:37:32 [INFO] Saving reconnect locations
+16:37:32 [INFO] Disabling plugins
+16:37:33 [INFO] [NthGamesController] Saving config.yml..
+16:37:51 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:37:51 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:37:51 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:37:52 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:37:52 [WARNING] Forced host server pvp is not defined
+16:37:52 [INFO] [NthGamesController] Loading config.yml..
+16:37:52 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:37:52 [INFO] Listening on /0.0.0.0:25565
+16:38:07 [INFO] [/127.0.0.1:49177] <-> InitialHandler has connected
+16:38:07 [INFO] [PaulBGD] <-> InitialHandler has connected
+16:38:08 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+16:38:08 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+16:38:16 [INFO] §aChanged time by -500 seconds.
+16:38:17 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:38:17 [INFO] Index: 1
+16:38:17 [INFO] Type: BUILD
+16:38:17 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:38:17 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:38:17 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+16:38:18 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+16:38:50 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:38:50 [INFO] Index: 2
+16:38:50 [INFO] Type: MAYHEM
+16:38:50 [INFO] [NodeJs] <-> ServerConnector [mayhem] has connected
+16:38:50 [INFO] [PaulBGD] <-> ServerConnector [mayhem] has connected
+16:38:51 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:38:52 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:44:54 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:44:54 [INFO] Index: 3
+16:44:54 [INFO] Type: BUILD
+16:44:54 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+16:44:54 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+16:44:54 [INFO] [NodeJs] <-> DownstreamBridge <-> [mayhem] has disconnected
+16:44:54 [INFO] [PaulBGD] <-> DownstreamBridge <-> [mayhem] has disconnected
+16:45:27 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH
+16:45:27 [INFO] Index: 4
+16:45:27 [INFO] Type: MAYHEM
+16:45:27 [INFO] [NodeJs] <-> ServerConnector [mayhem] has connected
+16:45:27 [INFO] [PaulBGD] <-> ServerConnector [mayhem] has connected
+16:45:27 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+16:45:27 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+16:47:16 [INFO] [PaulBGD] disconnected with: §fDon't go away. We'll be back shortly.
+16:47:16 [INFO] [PaulBGD] <-> DownstreamBridge <-> [mayhem] has disconnected
+16:47:16 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+16:47:22 [INFO] §cCommand not found
+16:47:24 [INFO] [NodeJs] disconnected with: §fDon't go away. We'll be back shortly.
+16:47:24 [INFO] [NodeJs] <-> DownstreamBridge <-> [mayhem] has disconnected
+16:47:24 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+16:48:03 [INFO] Closing listener [id: 0x512c7c20, /0:0:0:0:0:0:0:0:25565]
+16:48:03 [INFO] Closing pending connections
+16:48:03 [INFO] Disconnecting 0 connections
+16:48:03 [INFO] Closing IO threads
+16:48:05 [INFO] Saving reconnect locations
+16:48:05 [INFO] Disabling plugins
+16:48:05 [INFO] [NthGamesController] Saving config.yml..
+18:14:57 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+18:14:57 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+18:14:57 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+18:14:57 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+18:14:57 [WARNING] Forced host server pvp is not defined
+18:14:57 [INFO] [NthGamesController] Loading config.yml..
+18:14:57 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+18:14:57 [INFO] Listening on /0.0.0.0:25565
+18:15:00 [INFO] Closing listener [id: 0xd8388d17, /0:0:0:0:0:0:0:0:25565]
+18:15:00 [INFO] Closing pending connections
+18:15:00 [INFO] Disconnecting 0 connections
+18:15:00 [INFO] Closing IO threads
+18:15:02 [INFO] Saving reconnect locations
+18:15:02 [INFO] Disabling plugins
+18:15:02 [INFO] [NthGamesController] Saving config.yml..
+18:16:21 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+18:16:21 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+18:16:21 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+18:16:21 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+18:16:21 [WARNING] Forced host server pvp is not defined
+18:16:21 [INFO] [NthGamesController] Loading config.yml..
+18:16:21 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+18:16:21 [INFO] Listening on /0.0.0.0:25565
+18:16:41 [INFO] Closing listener [id: 0xcfb70527, /0:0:0:0:0:0:0:0:25565]
+18:16:41 [INFO] Closing pending connections
+18:16:41 [INFO] Disconnecting 0 connections
+18:16:41 [INFO] Closing IO threads
+18:16:44 [INFO] Saving reconnect locations
+18:16:44 [INFO] Disabling plugins
+18:16:44 [INFO] [NthGamesController] Saving config.yml..
+18:18:13 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+18:18:13 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+18:18:13 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+18:18:13 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+18:18:13 [WARNING] Forced host server pvp is not defined
+18:18:13 [INFO] [NthGamesController] Loading config.yml..
+18:18:13 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+18:18:14 [INFO] Listening on /0.0.0.0:25565
+18:19:00 [INFO] [/127.0.0.1:51605] <-> InitialHandler has connected
+18:19:01 [INFO] [PaulBGD] <-> InitialHandler has connected
+18:19:01 [INFO] [NthGamesController] Player PaulBGD was put on the Ghasts team.
+18:19:05 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+18:19:09 [INFO] §aChanged time by 0 seconds.
+18:19:10 [INFO] §aChanged time by 0 seconds.
+18:19:11 [INFO] §aChanged time by 0 seconds.
+18:19:12 [INFO] §aChanged time by 0 seconds.
+18:19:20 [INFO] §e§lUsage: /team <teamname> <player>
+18:19:20 [INFO] §ePossible teams: Ghasts, Blazes, Withers, Creepers, Skeletons, Spiders, Giants, Zombies, Endermen, Cave Spiders, Silverfish, Slimes, Zombie Pigmen, Magma Cubes, Bats, Cows
+18:19:34 [INFO] §aAdded player NodeJS to team Ghasts.
+18:19:46 [INFO] §aAdded player PaulBGD to team Blazes.
+18:19:56 [INFO] [/127.0.0.1:51682] <-> InitialHandler has connected
+18:19:57 [INFO] [/127.0.0.1:51687] <-> InitialHandler has connected
+18:19:59 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+18:21:54 [INFO] §aChanged time by -500 seconds.
+18:21:55 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH,LOBBY
+18:21:55 [INFO] Index: 1
+18:21:55 [INFO] Type: BUILD
+18:21:55 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+18:21:55 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+18:21:55 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+18:21:56 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+18:25:25 [INFO] Closing listener [id: 0x0782f51d, /0:0:0:0:0:0:0:0:25565]
+18:25:25 [INFO] Closing pending connections
+18:25:25 [INFO] Disconnecting 2 connections
+18:25:25 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+18:25:25 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+18:25:25 [INFO] Closing IO threads
+18:25:25 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+18:25:25 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+18:25:25 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+18:25:25 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+18:25:25 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+18:25:25 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+18:25:28 [INFO] Saving reconnect locations
+18:25:28 [INFO] Disabling plugins
+18:25:28 [INFO] [NthGamesController] Saving config.yml..
+18:25:55 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+18:25:55 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+18:25:55 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+18:25:56 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+18:25:56 [WARNING] Forced host server pvp is not defined
+18:25:56 [INFO] [NthGamesController] Loading config.yml..
+18:25:56 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+18:25:56 [INFO] Listening on /0.0.0.0:25565
+18:26:04 [INFO] [/127.0.0.1:51889] <-> InitialHandler has connected
+18:26:04 [INFO] [NthGamesController] Player NodeJs was put on the Ghasts team.
+18:26:04 [INFO] [NthGamesController] Player PaulBGD was put on the Blazes team.
+18:26:04 [INFO] [PaulBGD] <-> InitialHandler has connected
+18:26:06 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+18:26:06 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+18:33:26 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH,LOBBY
+18:33:26 [INFO] Index: 1
+18:33:26 [INFO] Type: BUILD
+18:33:26 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+18:33:26 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+18:33:26 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+18:33:27 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:03:26 [INFO] §aChanged time by 0 seconds.
+19:03:28 [INFO] §aChanged time by 0 seconds.
+19:03:29 [INFO] §aChanged time by 0 seconds.
+19:03:29 [INFO] §aChanged time by 0 seconds.
+19:03:30 [INFO] §aChanged time by 0 seconds.
+19:03:30 [INFO] §aChanged time by 0 seconds.
+19:04:13 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH,LOBBY
+19:04:13 [INFO] Index: 2
+19:04:13 [INFO] Type: MAYHEM
+19:50:04 [INFO] Closing listener [id: 0x83a2e542, /0:0:0:0:0:0:0:0:25565]
+19:50:04 [INFO] Closing pending connections
+19:50:04 [INFO] Disconnecting 2 connections
+19:50:04 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+19:50:04 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+19:50:04 [INFO] Closing IO threads
+19:50:04 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+19:50:04 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+19:50:04 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+19:50:04 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:50:04 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+19:50:04 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:50:06 [INFO] Saving reconnect locations
+19:50:06 [INFO] Disabling plugins
+19:50:06 [INFO] [NthGamesController] Saving config.yml..
+19:50:06 [INFO] Thank you and goodbye
+19:50:14 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:50:14 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:50:14 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:50:15 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:50:15 [WARNING] Forced host server pvp is not defined
+19:50:15 [INFO] [NthGamesController] Loading config.yml..
+19:50:15 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:50:16 [INFO] Listening on /0.0.0.0:25565
+19:50:31 [INFO] [/127.0.0.1:54872] <-> InitialHandler has connected
+19:50:31 [INFO] [NthGamesController] Player PaulBGD was put on the Ghasts team.
+19:50:31 [INFO] [/127.0.0.1:54871] <-> InitialHandler has connected
+19:50:33 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+19:50:33 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:50:40 [INFO] §e§lUsage: /team <teamname> <player>
+19:50:40 [INFO] §ePossible teams: Ghasts, Blazes, Withers, Creepers, Skeletons, Spiders, Giants, Zombies, Endermen, Cave Spiders, Silverfish, Slimes, Zombie Pigmen, Magma Cubes, Bats, Cows
+19:50:44 [INFO] §aAdded player PaulBGD to team Ghasts.
+19:50:47 [INFO] §aAdded player nodejs to team Blazes.
+19:51:00 [INFO] §aChanged time by -400 seconds.
+19:51:01 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH,LOBBY
+19:51:01 [INFO] Index: 1
+19:51:01 [INFO] Type: BUILD
+19:51:01 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:51:01 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+19:51:02 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:51:02 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+19:52:59 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:52:59 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:52:59 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:53:02 [INFO] Closing listener [id: 0x7b812ddb, /0:0:0:0:0:0:0:0:25565]
+19:53:02 [INFO] Closing pending connections
+19:53:02 [INFO] Disconnecting 1 connections
+19:53:02 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+19:53:02 [INFO] Closing IO threads
+19:53:02 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+19:53:02 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+19:53:02 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+19:53:04 [INFO] Saving reconnect locations
+19:53:04 [INFO] Disabling plugins
+19:53:04 [INFO] [NthGamesController] Saving config.yml..
+19:53:23 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:53:23 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:53:23 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:53:24 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:53:24 [WARNING] Forced host server pvp is not defined
+19:53:24 [INFO] [NthGamesController] Loading config.yml..
+19:53:24 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:53:24 [INFO] Listening on /0.0.0.0:25565
+19:53:41 [INFO] [/127.0.0.1:55073] <-> InitialHandler has connected
+19:53:41 [INFO] [NthGamesController] Player NodeJs was put on the Ghasts team.
+19:53:42 [INFO] [/127.0.0.1:55076] <-> InitialHandler has connected
+19:53:43 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+19:53:43 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:53:58 [INFO] §aChanged time by -400 seconds.
+19:54:04 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH,LOBBY
+19:54:04 [INFO] Index: 1
+19:54:04 [INFO] Type: BUILD
+19:54:04 [INFO] true 1
+19:54:04 [INFO] false 1
+19:54:04 [INFO] true 1
+19:54:04 [INFO] false 1
+19:54:04 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:54:04 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+19:54:04 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:54:05 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+19:56:21 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:56:21 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:56:22 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:56:23 [WARNING] [NodeJs] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+19:56:23 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+19:56:25 [INFO] [NodeJs] disconnected with: §cCould not connect to default or fallback server, please try again later: java.net.ConnectException
+19:56:25 [INFO] Closing listener [id: 0x1ca256f8, /0:0:0:0:0:0:0:0:25565]
+19:56:25 [INFO] Closing pending connections
+19:56:25 [INFO] Disconnecting 1 connections
+19:56:25 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+19:56:25 [INFO] Closing IO threads
+19:56:25 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+19:56:27 [INFO] Saving reconnect locations
+19:56:27 [INFO] Disabling plugins
+19:56:27 [INFO] [NthGamesController] Saving config.yml..
+19:56:36 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:56:36 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:56:36 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:56:37 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:56:37 [WARNING] Forced host server pvp is not defined
+19:56:37 [INFO] [NthGamesController] Loading config.yml..
+19:56:37 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:56:37 [INFO] Listening on /0.0.0.0:25565
+19:57:22 [INFO] [/127.0.0.1:55339] <-> InitialHandler has connected
+19:57:23 [INFO] [PaulBGD] <-> InitialHandler has connected
+19:57:24 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+19:57:24 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+19:57:24 [INFO] [NthGamesController] Player NodeJs was put on the Ghasts team.
+19:57:24 [INFO] [NthGamesController] Player PaulBGD was put on the Blazes team.
+19:57:32 [INFO] §aChanged time by -400 seconds.
+19:57:39 [INFO] §aChanged time by -400 seconds.
+19:57:40 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH,LOBBY
+19:57:40 [INFO] Index: 1
+19:57:40 [INFO] Type: BUILD
+19:57:40 [INFO] false 1
+19:57:40 [INFO] true 1
+19:57:40 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+19:57:40 [INFO] false 1
+19:57:40 [INFO] true 1
+19:57:40 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+19:57:41 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+19:57:41 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+19:59:38 [INFO] [PaulBGD] disconnected with: §fServer closed
+19:59:38 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+19:59:38 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+19:59:40 [WARNING] [NodeJs] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+19:59:40 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+19:59:41 [INFO] [NodeJs] disconnected with: §cCould not connect to default or fallback server, please try again later: java.net.ConnectException
+19:59:41 [INFO] §cCommand not found
+19:59:41 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+19:59:49 [INFO] Closing listener [id: 0xe22146f2, /0:0:0:0:0:0:0:0:25565]
+19:59:49 [INFO] Closing pending connections
+19:59:49 [INFO] Disconnecting 0 connections
+19:59:49 [INFO] Closing IO threads
+19:59:51 [INFO] Saving reconnect locations
+19:59:51 [INFO] Disabling plugins
+19:59:51 [INFO] [NthGamesController] Saving config.yml..
+19:59:57 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:59:57 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:59:57 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:59:57 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:59:57 [WARNING] Forced host server pvp is not defined
+19:59:57 [INFO] [NthGamesController] Loading config.yml..
+19:59:57 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:59:58 [INFO] Listening on /0.0.0.0:25565
+19:59:59 [INFO] [/127.0.0.1:55490] <-> InitialHandler has connected
+20:00:00 [INFO] [/127.0.0.1:55500] <-> InitialHandler has connected
+20:00:01 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+20:00:01 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+20:00:02 [INFO] [NthGamesController] Player NodeJs was put on the Ghasts team.
+20:00:02 [INFO] [NthGamesController] Player PaulBGD was put on the Blazes team.
+20:00:08 [INFO] §aChanged time by -500 seconds.
+20:00:08 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH,LOBBY
+20:00:08 [INFO] Index: 1
+20:00:08 [INFO] Type: BUILD
+20:00:08 [INFO] false 1
+20:00:08 [INFO] true 1
+20:00:08 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+20:00:08 [INFO] false 1
+20:00:08 [INFO] true 1
+20:00:08 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+20:00:08 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+20:00:09 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+20:03:00 [INFO] Closing listener [id: 0x6af62228, /0:0:0:0:0:0:0:0:25565]
+20:03:00 [INFO] Closing pending connections
+20:03:00 [INFO] Disconnecting 2 connections
+20:03:00 [INFO] [NodeJs] disconnected with: §f[Proxy] Proxy restarting.
+20:03:00 [INFO] [PaulBGD] disconnected with: §f[Proxy] Proxy restarting.
+20:03:00 [INFO] Closing IO threads
+20:03:00 [INFO] [PaulBGD] disconnected with: §f[Proxy] Lost connection to server.
+20:03:00 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+20:03:00 [INFO] [NodeJs] disconnected with: §f[Proxy] Lost connection to server.
+20:03:00 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+20:03:00 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+20:03:00 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+20:03:02 [INFO] Saving reconnect locations
+20:03:02 [INFO] Disabling plugins
+20:03:02 [INFO] [NthGamesController] Saving config.yml..
+20:03:19 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:03:19 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:03:19 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+20:03:19 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+20:03:19 [WARNING] Forced host server pvp is not defined
+20:03:19 [INFO] [NthGamesController] Loading config.yml..
+20:03:19 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+20:03:20 [INFO] Listening on /0.0.0.0:25565
+20:03:46 [INFO] [/127.0.0.1:55719] <-> InitialHandler has connected
+20:03:46 [INFO] [PaulBGD] <-> InitialHandler has connected
+20:03:48 [INFO] [NodeJs] <-> ServerConnector [lobby] has connected
+20:03:48 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+20:03:49 [INFO] [NthGamesController] Player PaulBGD was put on the Ghasts team.
+20:03:49 [INFO] [NthGamesController] Player NodeJs was put on the Blazes team.
+20:03:54 [INFO] §aChanged time by -500 seconds.
+20:03:55 [INFO] List of stages: LOBBY,BUILD,MAYHEM,BUILD,MAYHEM,BUILD,DEATHMATCH,LOBBY
+20:03:55 [INFO] Index: 1
+20:03:55 [INFO] Type: BUILD
+20:03:55 [INFO] false 1
+20:03:55 [INFO] true 1
+20:03:55 [INFO] false 1
+20:03:55 [INFO] true 1
+20:03:55 [INFO] [PaulBGD] <-> ServerConnector [build] has connected
+20:03:55 [INFO] [NodeJs] <-> ServerConnector [build] has connected
+20:03:58 [INFO] [NodeJs] <-> DownstreamBridge <-> [lobby] has disconnected
+20:03:58 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+20:24:22 [INFO] [NodeJs] disconnected with: §fServer closed
+20:24:22 [INFO] [NodeJs] <-> DownstreamBridge <-> [build] has disconnected
+20:24:23 [INFO] [NodeJs] -> UpstreamBridge has disconnected
+20:24:24 [WARNING] [PaulBGD] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+20:24:24 [INFO] [PaulBGD] <-> DownstreamBridge <-> [build] has disconnected
+20:24:24 [INFO] [PaulBGD] <-> ServerConnector [lobby] has connected
+20:24:26 [INFO] [PaulBGD] disconnected with: §fDon't go away. We'll be back shortly.
+20:24:26 [INFO] [PaulBGD] <-> DownstreamBridge <-> [lobby] has disconnected
+20:24:27 [INFO] [PaulBGD] -> UpstreamBridge has disconnected
+20:24:28 [INFO] §cCommand not found
+20:24:29 [INFO] Closing listener [id: 0x7854d37b, /0:0:0:0:0:0:0:0:25565]
+20:24:29 [INFO] Closing pending connections
+20:24:29 [INFO] Disconnecting 0 connections
+20:24:29 [INFO] Closing IO threads
+20:24:31 [INFO] Saving reconnect locations
+20:24:31 [INFO] Disabling plugins
+20:24:31 [INFO] [NthGamesController] Saving config.yml..
+11:25:46 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+11:25:46 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+11:25:46 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+11:25:46 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+11:25:46 [WARNING] Forced host server pvp is not defined
+11:25:46 [INFO] [NthGamesController] Loading config.yml..
+11:25:46 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+11:25:46 [INFO] Listening on /0.0.0.0:25565
+11:27:46 [INFO] §cCommand not found
+11:28:43 [INFO] [/192.168.0.10:57884] <-> InitialHandler has connected
+11:28:45 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+11:28:45 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+11:29:12 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+11:29:12 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+11:29:12 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+11:31:08 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+11:31:08 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+11:31:08 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+11:31:08 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+11:31:08 [WARNING] Forced host server pvp is not defined
+11:31:08 [INFO] [NthGamesController] Loading config.yml..
+11:31:08 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+11:31:08 [INFO] Listening on /0.0.0.0:25565
+11:31:25 [INFO] [/192.168.0.10:58030] <-> InitialHandler has connected
+11:31:27 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+11:31:27 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+11:38:28 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+11:38:28 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+12:15:06 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+12:15:06 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+12:15:06 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+12:15:06 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+12:15:06 [WARNING] Forced host server pvp is not defined
+12:15:06 [INFO] [NthGamesController] Loading config.yml..
+12:15:06 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+12:15:06 [INFO] Listening on /0.0.0.0:25565
+12:22:16 [INFO] [DJ_Ecco] <-> InitialHandler has connected
+12:22:19 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+12:22:20 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+12:29:20 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+12:29:21 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+13:19:03 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+13:19:03 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+13:19:03 [WARNING] [DJ_Ecco] -> UpstreamBridge - read timed out
+13:19:03 [INFO] [DJ_Ecco] disconnected with: §fReadTimeoutException : null
+13:19:03 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+19:35:04 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+19:35:04 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+19:35:04 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+19:35:05 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+19:35:05 [WARNING] Forced host server pvp is not defined
+19:35:05 [INFO] [NthGamesController] Loading config.yml..
+19:35:05 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+19:35:05 [INFO] Listening on /0.0.0.0:25565
+19:35:27 [INFO] [/192.168.0.10:60371] <-> InitialHandler has connected
+19:35:30 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+19:35:30 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+19:42:30 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+19:42:30 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+20:16:19 [WARNING] [DJ_Ecco] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+20:16:19 [INFO] [DJ_Ecco] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+20:16:19 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+20:16:20 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+20:16:20 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+20:18:44 [INFO] [DJ_Ecco] <-> InitialHandler has connected
+20:18:46 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+20:48:14 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:48:14 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:48:14 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+20:48:15 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+20:48:15 [WARNING] Forced host server pvp is not defined
+20:48:15 [INFO] [NthGamesController] Loading config.yml..
+20:48:15 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+20:48:15 [INFO] Listening on /0.0.0.0:25565
+20:49:55 [INFO] [/192.168.0.10:62081] <-> InitialHandler has connected
+20:49:56 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+20:49:56 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+20:55:15 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:55:15 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:55:15 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+20:55:15 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+20:55:15 [WARNING] Forced host server pvp is not defined
+20:55:15 [INFO] [NthGamesController] Loading config.yml..
+20:55:15 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+20:55:15 [INFO] Listening on /0.0.0.0:25565
+20:55:40 [INFO] [/192.168.0.10:62211] <-> InitialHandler has connected
+20:55:42 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+20:55:42 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+20:57:16 [WARNING] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] - IOException: An existing connection was forcibly closed by the remote host
+20:57:16 [INFO] [DJ_Ecco] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+20:57:16 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+20:57:16 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+20:57:17 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+20:57:55 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:57:55 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:57:55 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+20:57:55 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+20:57:55 [WARNING] Forced host server pvp is not defined
+20:57:55 [INFO] [NthGamesController] Loading config.yml..
+20:57:55 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+20:57:55 [INFO] Listening on /0.0.0.0:25565
+20:58:59 [INFO] [/192.168.0.10:62319] <-> InitialHandler has connected
+20:59:00 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+20:59:01 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+21:06:00 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+21:06:01 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+21:38:48 [WARNING] [DJ_Ecco] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+21:38:48 [INFO] [DJ_Ecco] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+21:38:48 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+21:38:48 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+21:38:48 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+21:42:21 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+21:42:21 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+21:42:21 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+21:42:21 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+21:42:21 [WARNING] Forced host server pvp is not defined
+21:42:21 [INFO] [NthGamesController] Loading config.yml..
+21:42:21 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+21:42:21 [INFO] Listening on /0.0.0.0:25565
+21:43:02 [INFO] [DJ_Ecco] <-> InitialHandler has connected
+21:43:04 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+21:43:04 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+21:44:04 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+21:44:04 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+21:59:12 [WARNING] [DJ_Ecco] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+21:59:12 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+21:59:12 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+21:59:51 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+21:59:51 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+21:59:51 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+21:59:51 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+21:59:51 [WARNING] Forced host server pvp is not defined
+21:59:51 [INFO] [NthGamesController] Loading config.yml..
+21:59:51 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+21:59:51 [INFO] Listening on /0.0.0.0:25565
+22:01:23 [INFO] [/192.168.0.10:63213] <-> InitialHandler has connected
+22:01:32 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+22:01:33 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+22:06:18 [WARNING] [DJ_Ecco] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+22:06:18 [INFO] [DJ_Ecco] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+22:06:18 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+22:06:18 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+22:06:18 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+22:06:47 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+22:06:47 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+22:06:47 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+22:06:48 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+22:06:48 [WARNING] Forced host server pvp is not defined
+22:06:48 [INFO] [NthGamesController] Loading config.yml..
+22:06:48 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+22:06:48 [INFO] Listening on /0.0.0.0:25565
+22:07:41 [INFO] [/192.168.0.10:63368] <-> InitialHandler has connected
+22:07:43 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+22:07:43 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+22:08:42 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+22:08:42 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+22:10:43 [INFO] [DJ_Ecco] <-> ServerConnector [mayhem] has connected
+22:10:43 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+22:15:26 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+22:15:26 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [mayhem] has disconnected
+22:24:27 [INFO] [DJ_Ecco] <-> ServerConnector [mayhem] has connected
+22:24:27 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+22:30:20 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+22:30:20 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [mayhem] has disconnected
+22:34:21 [INFO] [DJ_Ecco] <-> ServerConnector [mayhem] has connected
+22:34:21 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+22:40:13 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+22:40:13 [SEVERE] Apr 01, 2015 10:40:13 PM net.md_5.bungee.event.EventBus post
+WARNING: Error dispatching event PluginMessageEvent(super=TargetedEvent(sender=net.md_5.bungee.ServerConnection@6bd096ef, receiver=DJ_Ecco), cancelled=false, tag=NthGames, data=[0, 3, 69, 110, 100]) to listener com.nthgames.controller.listeners.DataListener@48ae9b55
+java.lang.IndexOutOfBoundsException: Index: 8, Size: 8
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at com.nthgames.controller.stages.StageController.endStage(StageController.java:54)
+	at com.nthgames.controller.listeners.DataListener.onPluginMessage(DataListener.java:22)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:47)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:367)
+	at net.md_5.bungee.connection.DownstreamBridge.handle(DownstreamBridge.java:222)
+	at net.md_5.bungee.protocol.packet.PluginMessage.handle(PluginMessage.java:62)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:161)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Unknown Source)
+
+
+22:40:13 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [mayhem] has disconnected
+09:37:16 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+09:37:16 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+09:37:16 [WARNING] [DJ_Ecco] -> UpstreamBridge - read timed out
+09:37:16 [INFO] [DJ_Ecco] disconnected with: §fReadTimeoutException : null
+09:37:16 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+10:38:48 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+10:38:48 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+10:38:48 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+10:38:48 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+10:38:48 [WARNING] Forced host server pvp is not defined
+10:38:48 [INFO] [NthGamesController] Loading config.yml..
+10:38:48 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+10:38:48 [INFO] Listening on /0.0.0.0:25565
+10:40:15 [INFO] [/192.168.0.36:51591] <-> InitialHandler has connected
+10:40:17 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+10:40:17 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+10:41:16 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+10:41:17 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+10:43:18 [INFO] [DJ_Ecco] <-> ServerConnector [mayhem] has connected
+10:43:18 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+11:57:39 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+11:57:39 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+11:57:39 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+11:57:39 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+11:57:39 [WARNING] Forced host server pvp is not defined
+11:57:39 [INFO] [NthGamesController] Loading config.yml..
+11:57:39 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+11:57:40 [INFO] Listening on /0.0.0.0:25565
+11:59:10 [INFO] [/192.168.0.70:49552] <-> InitialHandler has connected
+11:59:12 [INFO] [NthGames8] <-> ServerConnector [lobby] has connected
+11:59:12 [INFO] [NthGamesController] Player NthGames8 was put on the Ghasts team.
+11:59:32 [INFO] [DJ_Ecco] <-> InitialHandler has connected
+11:59:33 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+11:59:33 [INFO] [NthGamesController] Player DJ_Ecco was put on the Blazes team.
+12:00:12 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+12:00:12 [INFO] [NthGames8] <-> ServerConnector [build] has connected
+12:00:12 [INFO] [NthGames8] <-> DownstreamBridge <-> [lobby] has disconnected
+12:00:12 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+12:02:13 [INFO] [DJ_Ecco] <-> ServerConnector [mayhem] has connected
+12:02:13 [INFO] [NthGames8] <-> ServerConnector [mayhem] has connected
+12:02:13 [INFO] [NthGames8] <-> DownstreamBridge <-> [build] has disconnected
+12:02:13 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+12:03:00 [INFO] [NthGames8] -> UpstreamBridge has disconnected
+12:03:00 [INFO] [NthGames8] disconnected with: §f[Proxy] Lost connection to server.
+12:03:00 [INFO] [NthGames8] <-> DownstreamBridge <-> [mayhem] has disconnected
+12:03:17 [WARNING] [DJ_Ecco] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+12:03:17 [INFO] [DJ_Ecco] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+12:03:17 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+12:03:17 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+12:03:17 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [mayhem] has disconnected
+12:16:13 [INFO] [DJ_Ecco] <-> InitialHandler has connected
+12:16:14 [INFO] [DJ_Ecco] <-> ServerConnector [mayhem] has connected
+12:21:08 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+12:21:08 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+12:21:08 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [mayhem] has disconnected
+14:22:45 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+14:22:45 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+14:22:45 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+14:22:45 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+14:22:45 [WARNING] Forced host server pvp is not defined
+14:22:45 [INFO] [NthGamesController] Loading config.yml..
+14:22:45 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+14:22:45 [INFO] Listening on /0.0.0.0:25565
+15:44:05 [INFO] [/192.168.0.69:58010] <-> InitialHandler has connected
+15:46:15 [INFO] [/192.168.0.69:58017] <-> InitialHandler has connected
+15:48:14 [INFO] [/192.168.0.69:58022] <-> InitialHandler has connected
+16:11:04 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:11:04 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:11:04 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:11:04 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:11:04 [WARNING] Forced host server pvp is not defined
+16:11:04 [INFO] [NthGamesController] Loading config.yml..
+16:11:04 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:11:04 [INFO] Listening on /0.0.0.0:25565
+16:13:50 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:13:50 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:13:50 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:13:50 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:13:50 [WARNING] Forced host server pvp is not defined
+16:13:50 [INFO] [NthGamesController] Loading config.yml..
+16:13:50 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:13:51 [INFO] Listening on /0.0.0.0:25565
+16:18:15 [INFO] [/192.168.0.36:58013] <-> InitialHandler has connected
+16:18:17 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+16:18:17 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+16:19:22 [WARNING] [DJ_Ecco] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+16:19:22 [INFO] [DJ_Ecco] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+16:19:22 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+16:19:22 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+16:19:22 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+16:22:23 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+16:22:23 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+16:22:23 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+16:22:23 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+16:22:23 [WARNING] Forced host server pvp is not defined
+16:22:23 [INFO] [NthGamesController] Loading config.yml..
+16:22:23 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+16:22:23 [INFO] Listening on /0.0.0.0:25565
+16:24:40 [INFO] [/192.168.0.36:58192] <-> InitialHandler has connected
+16:24:42 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+16:24:42 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+16:27:17 [INFO] [/192.168.0.37:58043] <-> InitialHandler has connected
+16:27:18 [INFO] [iggy112] <-> ServerConnector [lobby] has connected
+16:27:18 [INFO] [iggy112] disconnected with: §cKicked whilst connecting to lobby: §fOutdated client! Please use 1.8
+16:27:18 [INFO] [iggy112] <-> ServerConnector [lobby] has disconnected
+16:27:19 [INFO] [iggy112] -> UpstreamBridge has disconnected
+16:28:03 [INFO] [iggy112] <-> InitialHandler has connected
+16:28:05 [INFO] [iggy112] <-> ServerConnector [lobby] has connected
+16:28:05 [INFO] [NthGamesController] Player iggy112 was put on the Blazes team.
+16:31:42 [INFO] [iggy112] <-> ServerConnector [build] has connected
+16:31:42 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+16:31:42 [INFO] [iggy112] <-> DownstreamBridge <-> [lobby] has disconnected
+16:31:43 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+16:32:38 [INFO] [iggy112] -> UpstreamBridge has disconnected
+16:32:38 [INFO] [iggy112] disconnected with: §f[Proxy] Lost connection to server.
+16:32:38 [INFO] [iggy112] <-> DownstreamBridge <-> [build] has disconnected
+16:32:40 [INFO] [iggy112] <-> InitialHandler has connected
+16:32:41 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+16:32:41 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+16:32:41 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+16:32:42 [INFO] [iggy112] <-> ServerConnector [build] has connected
+16:32:48 [INFO] [iggy112] -> UpstreamBridge has disconnected
+16:32:48 [INFO] [iggy112] disconnected with: §f[Proxy] Lost connection to server.
+16:32:48 [INFO] [iggy112] <-> DownstreamBridge <-> [build] has disconnected
+16:32:49 [INFO] [DJ_Ecco] <-> InitialHandler has connected
+16:32:50 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+16:32:53 [INFO] [iggy112] <-> InitialHandler has connected
+16:32:54 [INFO] [iggy112] <-> ServerConnector [build] has connected
+16:37:34 [INFO] [iggy112] -> UpstreamBridge has disconnected
+16:37:34 [INFO] [iggy112] disconnected with: §f[Proxy] Lost connection to server.
+16:37:34 [INFO] [iggy112] <-> DownstreamBridge <-> [build] has disconnected
+16:37:37 [INFO] [iggy112] <-> InitialHandler has connected
+16:37:38 [INFO] [iggy112] <-> ServerConnector [build] has connected
+17:08:12 [WARNING] [iggy112] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+17:08:12 [WARNING] [DJ_Ecco] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+17:08:12 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+17:08:12 [INFO] [iggy112] <-> DownstreamBridge <-> [build] has disconnected
+17:08:12 [INFO] [iggy112] <-> ServerConnector [lobby] has connected
+17:08:12 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+17:08:16 [WARNING] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] - IOException: An existing connection was forcibly closed by the remote host
+17:08:16 [WARNING] [iggy112] <-> DownstreamBridge <-> [lobby] - IOException: An existing connection was forcibly closed by the remote host
+17:08:16 [INFO] [iggy112] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+17:08:16 [INFO] [DJ_Ecco] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+17:08:16 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+17:08:16 [INFO] [iggy112] disconnected with: §f[Proxy] Lost connection to server.
+17:08:16 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+17:08:16 [INFO] [iggy112] <-> DownstreamBridge <-> [lobby] has disconnected
+17:08:16 [INFO] [iggy112] -> UpstreamBridge has disconnected
+17:08:16 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+17:11:21 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+17:11:21 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+17:11:21 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+17:11:21 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+17:11:21 [WARNING] Forced host server pvp is not defined
+17:11:21 [INFO] [NthGamesController] Loading config.yml..
+17:11:21 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+17:11:21 [INFO] Listening on /0.0.0.0:25565
+17:11:33 [INFO] [/192.168.0.37:58572] <-> InitialHandler has connected
+17:11:36 [INFO] [iggy112] <-> ServerConnector [lobby] has connected
+17:11:36 [INFO] [NthGamesController] Player iggy112 was put on the Ghasts team.
+17:11:47 [INFO] [/192.168.0.69:59235] <-> InitialHandler has connected
+17:11:49 [INFO] [NthGamesWillo] <-> ServerConnector [lobby] has connected
+17:11:49 [INFO] [NthGamesController] Player NthGamesWillo was put on the Blazes team.
+17:15:11 [WARNING] [NthGamesWillo] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+17:15:11 [INFO] [NthGamesWillo] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+17:15:11 [INFO] [NthGamesWillo] -> UpstreamBridge has disconnected
+17:15:11 [INFO] [NthGamesWillo] disconnected with: §f[Proxy] Lost connection to server.
+17:15:11 [INFO] [NthGamesWillo] <-> DownstreamBridge <-> [lobby] has disconnected
+17:16:33 [INFO] [DJ_Ecco] <-> InitialHandler has connected
+17:16:34 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+17:16:34 [INFO] [NthGamesController] Player DJ_Ecco was put on the Withers team.
+17:17:11 [WARNING] [DJ_Ecco] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+17:17:11 [INFO] [DJ_Ecco] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+17:17:11 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+17:17:11 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+17:17:11 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+17:18:36 [INFO] [iggy112] <-> ServerConnector [build] has connected
+17:18:37 [INFO] [iggy112] <-> DownstreamBridge <-> [lobby] has disconnected
+17:19:44 [WARNING] [iggy112] <-> DownstreamBridge <-> [build] - IOException: An existing connection was forcibly closed by the remote host
+17:19:44 [INFO] [iggy112] <-> DownstreamBridge <-> [build] has disconnected
+17:19:44 [INFO] [iggy112] <-> ServerConnector [lobby] has connected
+17:19:45 [WARNING] [iggy112] <-> DownstreamBridge <-> [lobby] - IOException: An existing connection was forcibly closed by the remote host
+17:19:45 [INFO] [iggy112] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+17:19:45 [INFO] [iggy112] disconnected with: §f[Proxy] Lost connection to server.
+17:19:45 [INFO] [iggy112] <-> DownstreamBridge <-> [lobby] has disconnected
+17:19:45 [INFO] [iggy112] -> UpstreamBridge has disconnected
+17:22:41 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+17:22:41 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+17:22:41 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+17:22:41 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+17:22:41 [WARNING] Forced host server pvp is not defined
+17:22:41 [INFO] [NthGamesController] Loading config.yml..
+17:22:41 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+17:22:41 [INFO] Listening on /0.0.0.0:25565
+10:07:25 [INFO] [/192.168.0.37:62114] <-> InitialHandler has connected
+10:07:27 [INFO] [iggy112] <-> ServerConnector [lobby] has connected
+10:07:28 [INFO] [NthGamesController] Player iggy112 was put on the Ghasts team.
+10:12:00 [INFO] [DJ_Ecco] <-> InitialHandler has connected
+10:12:02 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+10:12:02 [INFO] [NthGamesController] Player DJ_Ecco was put on the Blazes team.
+10:13:24 [INFO] [iggy112] <-> InitialHandler has connected
+10:13:25 [INFO] [iggy112] disconnected with: §cYou are already connected to this server!
+10:13:25 [INFO] [iggy112] disconnected with: §cYou are already connected to this server!
+10:13:25 [INFO] [iggy112] <-> ServerConnector [lobby] has connected
+10:13:25 [INFO] [iggy112] disconnected with: §fYou logged in from another location
+10:13:25 [INFO] [iggy112] <-> DownstreamBridge <-> [lobby] has disconnected
+10:13:26 [INFO] [iggy112] -> UpstreamBridge has disconnected
+10:13:37 [WARNING] [iggy112] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+10:13:37 [INFO] [iggy112] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+10:13:37 [INFO] [iggy112] -> UpstreamBridge has disconnected
+10:13:37 [INFO] [iggy112] disconnected with: §f[Proxy] Lost connection to server.
+10:13:37 [INFO] [iggy112] <-> DownstreamBridge <-> [lobby] has disconnected
+10:13:59 [INFO] [iggy112] <-> InitialHandler has connected
+10:14:01 [INFO] [iggy112] <-> ServerConnector [lobby] has connected
+10:14:28 [INFO] [iggy112] <-> ServerConnector [build] has connected
+10:14:28 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+10:14:28 [INFO] [iggy112] <-> DownstreamBridge <-> [lobby] has disconnected
+10:14:28 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+10:17:29 [INFO] [iggy112] <-> ServerConnector [mayhem] has connected
+10:17:29 [INFO] [DJ_Ecco] <-> ServerConnector [mayhem] has connected
+10:17:29 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+10:17:29 [INFO] [iggy112] <-> DownstreamBridge <-> [build] has disconnected
+10:29:35 [WARNING] [DJ_Ecco] <-> DownstreamBridge <-> [mayhem] - IOException: An existing connection was forcibly closed by the remote host
+10:29:35 [WARNING] [iggy112] <-> DownstreamBridge <-> [mayhem] - IOException: An existing connection was forcibly closed by the remote host
+10:29:35 [INFO] [iggy112] <-> DownstreamBridge <-> [mayhem] has disconnected
+10:29:35 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [mayhem] has disconnected
+10:29:35 [INFO] [iggy112] <-> ServerConnector [lobby] has connected
+10:29:35 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+10:32:00 [WARNING] [DJ_Ecco] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+10:32:00 [INFO] [DJ_Ecco] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+10:32:00 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+10:32:00 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+10:32:00 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+10:32:06 [INFO] [iggy112] -> UpstreamBridge has disconnected
+10:32:06 [INFO] [iggy112] disconnected with: §f[Proxy] Lost connection to server.
+10:32:06 [INFO] [iggy112] <-> DownstreamBridge <-> [lobby] has disconnected
+10:37:23 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+10:37:23 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+10:37:23 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+10:37:24 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+10:37:24 [WARNING] Forced host server pvp is not defined
+10:37:24 [INFO] [NthGamesController] Loading config.yml..
+10:37:24 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+10:37:24 [INFO] Listening on /0.0.0.0:25565
+10:38:21 [INFO] [/192.168.0.36:61614] <-> InitialHandler has connected
+10:38:23 [INFO] [DJ_Ecco] <-> ServerConnector [lobby] has connected
+10:38:23 [INFO] [NthGamesController] Player DJ_Ecco was put on the Ghasts team.
+10:38:31 [INFO] [iggy112] <-> InitialHandler has connected
+10:38:32 [INFO] [iggy112] <-> ServerConnector [lobby] has connected
+10:38:32 [INFO] [NthGamesController] Player iggy112 was put on the Blazes team.
+10:45:23 [INFO] [iggy112] <-> ServerConnector [build] has connected
+10:45:23 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+10:45:23 [INFO] [iggy112] <-> DownstreamBridge <-> [lobby] has disconnected
+10:45:23 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [lobby] has disconnected
+11:01:25 [INFO] [DJ_Ecco] <-> ServerConnector [mayhem] has connected
+11:01:25 [INFO] [iggy112] <-> ServerConnector [mayhem] has connected
+11:01:25 [INFO] [iggy112] <-> DownstreamBridge <-> [build] has disconnected
+11:01:25 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+11:07:18 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+11:07:18 [INFO] [iggy112] <-> ServerConnector [build] has connected
+11:07:18 [INFO] [iggy112] <-> DownstreamBridge <-> [mayhem] has disconnected
+11:07:18 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [mayhem] has disconnected
+11:10:19 [INFO] [DJ_Ecco] <-> ServerConnector [mayhem] has connected
+11:10:19 [INFO] [iggy112] <-> ServerConnector [mayhem] has connected
+11:10:19 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+11:10:19 [INFO] [iggy112] <-> DownstreamBridge <-> [build] has disconnected
+11:16:12 [INFO] [DJ_Ecco] <-> ServerConnector [build] has connected
+11:16:12 [INFO] [iggy112] <-> ServerConnector [build] has connected
+11:16:12 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [mayhem] has disconnected
+11:16:12 [INFO] [iggy112] <-> DownstreamBridge <-> [mayhem] has disconnected
+11:22:11 [INFO] [iggy112] -> UpstreamBridge has disconnected
+11:22:11 [INFO] [iggy112] disconnected with: §f[Proxy] Lost connection to server.
+11:22:11 [INFO] [iggy112] <-> DownstreamBridge <-> [build] has disconnected
+11:22:12 [WARNING] [DJ_Ecco] -> UpstreamBridge - IOException: An existing connection was forcibly closed by the remote host
+11:22:12 [INFO] [DJ_Ecco] disconnected with: §fIOException : An existing connection was forcibly closed by the remote host @ sun.nio.ch.SocketDispatcher:-2
+11:22:12 [INFO] [DJ_Ecco] -> UpstreamBridge has disconnected
+11:22:12 [INFO] [DJ_Ecco] disconnected with: §f[Proxy] Lost connection to server.
+11:22:12 [INFO] [DJ_Ecco] <-> DownstreamBridge <-> [build] has disconnected
+11:22:29 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+11:22:29 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+11:22:29 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.8-SNAPSHOT:"3973c51":1055
+11:22:29 [INFO] Loaded plugin NthGamesController version 1.0.0 by PaulBGD
+11:22:29 [WARNING] Forced host server pvp is not defined
+11:22:29 [INFO] [NthGamesController] Loading config.yml..
+11:22:29 [INFO] Enabled plugin NthGamesController version 1.0.0 by PaulBGD
+11:22:29 [INFO] Listening on /0.0.0.0:25565

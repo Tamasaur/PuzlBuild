@@ -1,0 +1,10 @@
+# To configure auto camera for specific players simply add them below, one per line prefixed with a dash. Such as this:
+#
+# auto-cameras:
+# - heatseeker0
+# - drtshock
+#
+
+auto-cameras:
+- heatseeker0
+- DJ_Ecco

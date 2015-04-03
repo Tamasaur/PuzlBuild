@@ -1,0 +1,28 @@
+stage-order:
+- LOBBY
+- BUILD
+- MAYHEM
+- BUILD
+- MAYHEM
+- BUILD
+- DEATHMATCH
+- LOBBY
+tab:
+  header: §6NthGames
+team-names:
+- Ghasts
+- Blazes
+- Withers
+- Creepers
+- Skeletons
+- Spiders
+- Giants
+- Zombies
+- Endermen
+- Cave Spiders
+- Silverfish
+- Slimes
+- Zombie Pigmen
+- Magma Cubes
+- Bats
+- Cows

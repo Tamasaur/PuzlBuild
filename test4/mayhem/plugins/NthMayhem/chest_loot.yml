@@ -1,0 +1,74 @@
+# Sample file for chest tiers and loot definitions. Remove the definitions below and make your own.
+#
+# For block meta and names you can use http://minecraft-ids.grahamedgecombe.com/
+#
+
+loot-tiers:
+  1:              # Tier key. Must be unique and a positive number.
+    block-under: GOLD_BLOCK
+    block-meta: 0 # set to 0 if the respective block has no meta, e.g. GLOWSTONE
+    loot-count: 6 # How many items to put in chest from the loot-table below. There can be duplicates e.g. 2 apples and 1 stone sword.
+    loot-table:
+    - APPLE       # You can add an item more than once to increase it's drop probability.
+    - APPLE
+    - APPLE
+    - BREAD
+    - BREAD
+    - BREAD
+    - COOKIE
+    - COOKIE
+    - COOKIE
+    - ARROW
+    - ARROW
+    - ARROW
+    - ARROW
+    - ARROW
+    - BOW
+    - BOW
+    - CHAINMAIL_CHESTPLATE
+    - CHAINMAIL_HELMET
+    - CHAINMAIL_LEGGINGS
+    - CHAINMAIL_BOOTS
+    - STONE_SWORD
+    - STONE_SWORD
+  2:
+    block-under: IRON_BLOCK
+    block-meta: 0
+    loot-count: 5
+    loot-table:
+    - COOKED_BEEF
+    - COOKED_BEEF
+    - COOKED_BEEF
+    - GOLDEN_APPLE
+    - GOLDEN_APPLE
+    - COOKED_PORKCHOP
+    - COOKED_PORKCHOP
+    - COOKED_PORKCHOP
+    - IRON_CHESTPLATE
+    - IRON_HELMET
+    - IRON_LEGGINGS
+    - IRON_BOOTS
+    - IRON_SWORD
+    - IRON_SWORD
+    - BOW
+    - BOW
+    - ARROW
+    - ARROW
+    - ARROW
+  3:
+    block-under: DIAMOND_BLOCK
+    block-meta: 0
+    loot-count: 3
+    loot-table:
+    - GOLDEN_APPLE # enchanted
+    - GOLDEN_APPLE # enchanted
+    - GOLDEN_APPLE
+    - GOLDEN_APPLE
+    - GOLDEN_APPLE
+    - CAKE
+    - CAKE
+    - DIAMOND_SWORD
+    - DIAMOND_CHESTPLATE
+    - DIAMOND_LEGGINGS
+    - DIAMOND_BOOTS
+    - DIAMOND_HELMET

@@ -1,0 +1,9 @@
+# Dummy arena file. Contents filled in by in-game commands
+
+arena-center: world,-307.517401,30.000000,-316.286748,179.390015,-3.450044
+center-radius-sq: 1156
+boundary-radius-sq: 18225
+lobby-locations:
+- world,-307.501356,52.000000,-200.463812,-178.015625,2.462421
+- world,-192.352311,52.296359,-316.433531,-270.265472,8.762384
+- world,-307.263670,52.662327,-431.145591,-0.115265,12.512379

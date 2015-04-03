@@ -1,0 +1,15 @@
+# Dummy script file. Edit to suit the stage this runs on
+# name - camera name
+# delay - how long we should display that camera, in game ticks (20 ticks = 1 second)
+default:
+- {name: "lobby1", delay: 60}
+- {name: "lobby2", delay: 60}
+- {name: "lobby3", delay: 60}
+- {name: "lobby4", delay: 60}
+- {name: "lobby5", delay: 60}
+- {name: "closecart", delay: 80}
+
+altar1:
+- {name: "altar1inside", delay: 40}
+- {name: "altar1outside", delay: 60}
+

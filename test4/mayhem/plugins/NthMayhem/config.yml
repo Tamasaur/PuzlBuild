@@ -1,0 +1,44 @@
+# Print debug messages?
+debug: true
+
+# Settings that control where and what messages to display on the theater screen
+theater-hud-url: "http://localhost/hud/data_post.php"
+theater-hud-template: "<genericMessage><copy>%%TEXT%%</copy></genericMessage>"
+theater-hud-messages:
+  mayhem-start: "Welcome to Mayhem! Collect Kills and Stats to become the champion of mayhem! Grab and equip items as fast as you can!"
+  mayhem-ffa-start: "Engaging battle mode! Collect kills and points to win the game!"
+  mayhem-disaster-start: "A storm is coming! Be careful!"
+  mayhem-deathmatch-start: "No Armor allowed! Last man standing wins!"
+  mayhem-before-tp: "Teleportation engaged. Returning to Build map."
+
+# Settings that control which messages to display ingame
+title-messages:
+  mayhem-start: "Welcome to Mayhem!"
+  mayhem-ffa-start: "Engaging battle mode!"
+  mayhem-disaster-start: "A storm is coming!"
+  mayhem-deathmatch-start: "Last man standing wins!"
+  mayhem-before-tp: "Returning to Build map."
+
+mob-density:
+- {mob: ZOMBIE, count: 100}
+- {mob: SKELETON, count: 60}
+- {mob: CREEPER, count: 40}
+- {mob: SPIDER, count: 60}
+
+# Lengths of various game phases. All times are in seconds
+length-pre-start: 15
+length-start: 30
+length-ffa: 120
+# FFA part 2, with disasters
+length-disaster: 60
+length-deathmatch: 120
+
+# Chest refill delays (in seconds)
+chest-refill-inner: 45
+chest-refill-outer: 90
+
+# Messages sent to players. You can use &0..&f color codes.
+# All messages starting with error-* have the prefix automatically added in front.
+# When rewriting messages that contain text like %d and %s make sure you keep it.
+messages:
+  prefix: '&c[NthGames]'
